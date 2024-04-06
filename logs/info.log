@@ -1,0 +1,1991 @@
+2024-04-06 10:56:05,627 [INFO]: Start training...
+2024-04-06 10:58:55,464 [INFO]: Start training...
+2024-04-06 11:02:33,975 [INFO]: Start training...
+2024-04-06 11:05:24,389 [INFO]: Start training...
+2024-04-06 11:05:33,006 [INFO]: Epoch: 0, Iter: 0, Loss: 8.393457412719727
+2024-04-06 11:05:33,007 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:05:33,007 [INFO]: src.strip: I am a student. I love reading books.
+2024-04-06 11:05:33,008 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:07:10,414 [INFO]: Start training...
+2024-04-06 11:07:19,576 [INFO]: Epoch: 0, Iter: 0, Loss: 8.60057258605957
+2024-04-06 11:07:19,577 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:07:19,577 [INFO]: src.strip: I am a student. I love reading books.
+2024-04-06 11:07:19,578 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:07:19,596 [INFO]: trg: [2, 0]
+2024-04-06 11:07:19,596 [INFO]: Output: 
+2024-04-06 11:08:12,151 [INFO]: Start training...
+2024-04-06 11:08:21,360 [INFO]: Epoch: 0, Iter: 0, Loss: 8.592479705810547
+2024-04-06 11:08:21,361 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:08:21,362 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:08:21,379 [INFO]: Output: 
+2024-04-06 11:08:30,419 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:08:30,420 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:08:30,605 [INFO]: Output: 的的的的的的的
+2024-04-06 11:08:39,699 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:08:39,701 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:08:39,892 [INFO]: Output: 的的的的的的的的的
+2024-04-06 11:08:49,029 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:08:49,031 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:08:49,219 [INFO]: Output: ,,,,,,,的的
+2024-04-06 11:08:52,281 [INFO]: Epoch: 0, Iter: 100, Loss: 3.4380218982696533
+2024-04-06 11:08:58,382 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:08:58,383 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:08:58,573 [INFO]: Output: 的,在,的,的的的
+2024-04-06 11:09:07,739 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:07,740 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:07,910 [INFO]: Output: 的的的的。
+2024-04-06 11:09:17,065 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:17,066 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:17,258 [INFO]: Output: 是是是,我,我的,
+2024-04-06 11:09:23,362 [INFO]: Epoch: 0, Iter: 200, Loss: 3.6047046184539795
+2024-04-06 11:09:26,432 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:26,433 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:26,622 [INFO]: Output: 我是是是是是是是是
+2024-04-06 11:09:35,812 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:35,813 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:36,012 [INFO]: Output: 我是我是是是是是是
+2024-04-06 11:09:45,183 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:45,185 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:45,373 [INFO]: Output: 结果是是是是是是是是
+2024-04-06 11:09:54,571 [INFO]: Epoch: 0, Iter: 300, Loss: 3.173549175262451
+2024-04-06 11:09:54,573 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:54,574 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:54,797 [INFO]: Output: 我是我是我是我是我
+2024-04-06 11:09:56,982 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:56,983 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:57,167 [INFO]: Output: 我是我是我是我是我
+2024-04-06 11:09:57,475 [INFO]: Epoch: 1, Iter: 0, Loss: 3.239046096801758
+2024-04-06 11:09:57,476 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:09:57,477 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:09:57,661 [INFO]: Output: 我是我是我是我是我
+2024-04-06 11:10:06,861 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:06,862 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:07,048 [INFO]: Output: 那是我是是是是是是
+2024-04-06 11:10:16,257 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:16,258 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:16,445 [INFO]: Output: 我我我我我我我我我
+2024-04-06 11:10:25,643 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:25,644 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:25,830 [INFO]: Output: 我是我是我是我是我
+2024-04-06 11:10:28,896 [INFO]: Epoch: 1, Iter: 100, Loss: 3.23093843460083
+2024-04-06 11:10:35,030 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:35,032 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:35,223 [INFO]: Output: 我我我我我我我我我
+2024-04-06 11:10:44,442 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:44,444 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:44,630 [INFO]: Output: 我我我我我我我我我
+2024-04-06 11:10:53,857 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:10:53,859 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:10:53,987 [INFO]: Output: 它是我。
+2024-04-06 11:11:00,143 [INFO]: Epoch: 1, Iter: 200, Loss: 3.184603691101074
+2024-04-06 11:11:03,226 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:03,227 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:03,408 [INFO]: Output: 而,我是我是我。
+2024-04-06 11:11:12,660 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:12,662 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:12,851 [INFO]: Output: 那个人,我我我想要
+2024-04-06 11:11:22,100 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:22,102 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:22,232 [INFO]: Output: 那个人。
+2024-04-06 11:11:31,472 [INFO]: Epoch: 1, Iter: 300, Loss: 3.158066987991333
+2024-04-06 11:11:31,473 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:31,474 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:31,663 [INFO]: Output: 它是我我我我我我我
+2024-04-06 11:11:33,850 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:33,851 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:34,043 [INFO]: Output: 我我我我我我我我我
+2024-04-06 11:11:34,355 [INFO]: Epoch: 2, Iter: 0, Loss: 3.2873051166534424
+2024-04-06 11:11:34,356 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:34,357 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:34,547 [INFO]: Output: 我我我我我我我我我
+2024-04-06 11:11:43,786 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:43,788 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:43,916 [INFO]: Output: 那个人。
+2024-04-06 11:11:53,174 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:11:53,176 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:11:53,354 [INFO]: Output: 那个人,我想我想要
+2024-04-06 11:12:02,611 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:02,613 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:02,740 [INFO]: Output: 那个人。
+2024-04-06 11:12:05,823 [INFO]: Epoch: 2, Iter: 100, Loss: 2.8879854679107666
+2024-04-06 11:12:11,993 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:11,994 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:12,199 [INFO]: Output: 那个人,我不过去。
+2024-04-06 11:12:21,454 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:21,455 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:21,638 [INFO]: Output: 那个人在我国上。
+2024-04-06 11:12:30,907 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:30,910 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:31,105 [INFO]: Output: 我我我我我我我。
+2024-04-06 11:12:37,281 [INFO]: Epoch: 2, Iter: 200, Loss: 2.8477649688720703
+2024-04-06 11:12:40,372 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:40,374 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:40,563 [INFO]: Output: 然而,我想要我想要
+2024-04-06 11:12:49,826 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:49,828 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:50,050 [INFO]: Output: 我我我我我我我我。
+2024-04-06 11:12:59,290 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:12:59,291 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:12:59,478 [INFO]: Output: 我我我我我我。
+2024-04-06 11:13:08,701 [INFO]: Epoch: 2, Iter: 300, Loss: 2.9085958003997803
+2024-04-06 11:13:08,702 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:08,703 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:08,880 [INFO]: Output: 我想我想我想我想。
+2024-04-06 11:13:11,057 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:11,058 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:11,243 [INFO]: Output: 它是我想要我想要。
+2024-04-06 11:13:11,555 [INFO]: Epoch: 3, Iter: 0, Loss: 2.7594003677368164
+2024-04-06 11:13:11,556 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:11,557 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:11,746 [INFO]: Output: 它是我想要我想要。
+2024-04-06 11:13:20,986 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:20,987 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:21,176 [INFO]: Output: 我想要我不过我。
+2024-04-06 11:13:30,410 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:30,412 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:30,603 [INFO]: Output: 我想要我想要我想要
+2024-04-06 11:13:39,839 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:39,841 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:40,051 [INFO]: Output: 我想我想我想我想我想
+2024-04-06 11:13:43,130 [INFO]: Epoch: 3, Iter: 100, Loss: 2.871269702911377
+2024-04-06 11:13:49,290 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:49,292 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:49,495 [INFO]: Output: 我想我想我想我想我想
+2024-04-06 11:13:58,729 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:13:58,730 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:13:58,919 [INFO]: Output: 我想要我想要我想要
+2024-04-06 11:14:08,156 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:08,158 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:08,344 [INFO]: Output: 我想要把我想要做了。
+2024-04-06 11:14:14,503 [INFO]: Epoch: 3, Iter: 200, Loss: 2.929361581802368
+2024-04-06 11:14:17,583 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:17,585 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:17,775 [INFO]: Output: 我想要把我想要做了。
+2024-04-06 11:14:27,030 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:27,032 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:27,218 [INFO]: Output: 那个人,我想要想要
+2024-04-06 11:14:36,471 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:36,472 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:36,662 [INFO]: Output: 我想我想我想我想了。
+2024-04-06 11:14:45,906 [INFO]: Epoch: 3, Iter: 300, Loss: 2.767918825149536
+2024-04-06 11:14:45,907 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:45,908 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:46,093 [INFO]: Output: 我想要想要把我想要。
+2024-04-06 11:14:48,273 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:48,274 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:48,460 [INFO]: Output: 我想要我想要我想要我
+2024-04-06 11:14:48,772 [INFO]: Epoch: 4, Iter: 0, Loss: 3.016902208328247
+2024-04-06 11:14:48,774 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:48,774 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:48,962 [INFO]: Output: 我想我想我想我想我想
+2024-04-06 11:14:58,207 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:14:58,208 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:14:58,398 [INFO]: Output: 我想要把我想要把我。
+2024-04-06 11:15:07,658 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:07,660 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:07,845 [INFO]: Output: 我想要把我想要想要。
+2024-04-06 11:15:17,101 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:17,103 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:17,324 [INFO]: Output: 我想要把我想要把我想
+2024-04-06 11:15:20,415 [INFO]: Epoch: 4, Iter: 100, Loss: 2.7317349910736084
+2024-04-06 11:15:26,592 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:26,594 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:26,771 [INFO]: Output: 我想我想我想我想我想
+2024-04-06 11:15:36,031 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:36,033 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:36,224 [INFO]: Output: 我想我想我想我想我想
+2024-04-06 11:15:45,493 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:45,494 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:45,695 [INFO]: Output: 我想我想我想我想了。
+2024-04-06 11:15:51,872 [INFO]: Epoch: 4, Iter: 200, Loss: 2.718938112258911
+2024-04-06 11:15:54,964 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:15:54,965 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:15:55,157 [INFO]: Output: 我想我想我想我想我。
+2024-04-06 11:16:04,433 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:04,434 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:04,622 [INFO]: Output: 我想我想要想我想要想
+2024-04-06 11:16:13,896 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:13,897 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:14,087 [INFO]: Output: 我想要把我想要把我。
+2024-04-06 11:16:23,358 [INFO]: Epoch: 4, Iter: 300, Loss: 2.7284181118011475
+2024-04-06 11:16:23,359 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:23,360 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:23,547 [INFO]: Output: 我想要想要把我想要做
+2024-04-06 11:16:25,734 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:25,735 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:25,928 [INFO]: Output: 我想我想我想要想。我
+2024-04-06 11:16:26,243 [INFO]: Epoch: 5, Iter: 0, Loss: 2.627793073654175
+2024-04-06 11:16:26,244 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:26,245 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:26,431 [INFO]: Output: 我想我想我想要想。我
+2024-04-06 11:16:35,702 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:35,703 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:35,895 [INFO]: Output: 我想我想要想要想。我
+2024-04-06 11:16:45,169 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:45,170 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:45,358 [INFO]: Output: 我想要想我想要想要做
+2024-04-06 11:16:54,636 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:16:54,638 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:16:54,825 [INFO]: Output: 我想要想要我想要做了
+2024-04-06 11:16:57,917 [INFO]: Epoch: 5, Iter: 100, Loss: 2.698873281478882
+2024-04-06 11:17:04,108 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:04,110 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:04,335 [INFO]: Output: 我想要想要想要的话,
+2024-04-06 11:17:13,617 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:13,619 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:13,806 [INFO]: Output: 我想要把我想要把我想
+2024-04-06 11:17:23,083 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:23,085 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:23,270 [INFO]: Output: 我想要想要我想要想要
+2024-04-06 11:17:29,459 [INFO]: Epoch: 5, Iter: 200, Loss: 2.5724008083343506
+2024-04-06 11:17:32,552 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:32,553 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:32,741 [INFO]: Output: 我想要想要做了。
+2024-04-06 11:17:42,026 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:42,028 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:42,215 [INFO]: Output: 我想要把我想要做了。
+2024-04-06 11:17:51,493 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:17:51,494 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:17:51,680 [INFO]: Output: 我想要想我想要想要想
+2024-04-06 11:18:00,952 [INFO]: Epoch: 5, Iter: 300, Loss: 2.620389461517334
+2024-04-06 11:18:00,953 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:00,954 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:01,141 [INFO]: Output: 我想要把我想要做了。
+2024-04-06 11:18:03,336 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:03,336 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:03,528 [INFO]: Output: 我想要想我想要想要想
+2024-04-06 11:18:03,840 [INFO]: Epoch: 6, Iter: 0, Loss: 2.608870506286621
+2024-04-06 11:18:03,841 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:03,842 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:04,029 [INFO]: Output: 我想我想要想要想要想
+2024-04-06 11:18:13,302 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:13,303 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:13,488 [INFO]: Output: 我想要把我想要把我。
+2024-04-06 11:18:22,780 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:22,782 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:22,969 [INFO]: Output: 我想要想要我想要做了
+2024-04-06 11:18:32,250 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:32,251 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:32,441 [INFO]: Output: 我想要想要想要我想要
+2024-04-06 11:18:35,530 [INFO]: Epoch: 6, Iter: 100, Loss: 2.658949851989746
+2024-04-06 11:18:41,714 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:41,716 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:41,930 [INFO]: Output: 我想我想要想我想要想
+2024-04-06 11:18:51,195 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:18:51,197 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:18:51,381 [INFO]: Output: 我想要想我想要想要我
+2024-04-06 11:19:00,632 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:00,633 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:00,851 [INFO]: Output: 我想要把我想要把我想
+2024-04-06 11:19:07,023 [INFO]: Epoch: 6, Iter: 200, Loss: 2.5801072120666504
+2024-04-06 11:19:10,104 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:10,106 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:10,295 [INFO]: Output: 我想我想要把我想要把
+2024-04-06 11:19:19,546 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:19,548 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:19,748 [INFO]: Output: 我想我想要想要去了。
+2024-04-06 11:19:28,989 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:28,991 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:29,196 [INFO]: Output: 我想要把我想要做了。
+2024-04-06 11:19:38,446 [INFO]: Epoch: 6, Iter: 300, Loss: 2.590991735458374
+2024-04-06 11:19:38,447 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:38,448 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:38,637 [INFO]: Output: 我想我想要想我想要想
+2024-04-06 11:19:40,814 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:40,815 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:40,995 [INFO]: Output: 我想我想要想要做的事
+2024-04-06 11:19:41,306 [INFO]: Epoch: 7, Iter: 0, Loss: 2.4484925270080566
+2024-04-06 11:19:41,307 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:41,308 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:41,491 [INFO]: Output: 我想我想要想要做的事
+2024-04-06 11:19:50,748 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:19:50,749 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:19:50,956 [INFO]: Output: 我想我想要想要做好。
+2024-04-06 11:20:00,222 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:00,223 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:00,415 [INFO]: Output: 我想我想我想要去了。
+2024-04-06 11:20:09,678 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:09,680 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:09,895 [INFO]: Output: 我想要想要想要我想要
+2024-04-06 11:20:12,999 [INFO]: Epoch: 7, Iter: 100, Loss: 2.4482979774475098
+2024-04-06 11:20:19,191 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:19,193 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:19,384 [INFO]: Output: 我想我想要想要我想要
+2024-04-06 11:20:28,667 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:28,668 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:28,860 [INFO]: Output: 我想要把我想要去了。
+2024-04-06 11:20:38,132 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:38,135 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:38,326 [INFO]: Output: 我想我想要想要去了。
+2024-04-06 11:20:44,510 [INFO]: Epoch: 7, Iter: 200, Loss: 2.310180187225342
+2024-04-06 11:20:47,604 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:47,605 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:47,783 [INFO]: Output: 我想我想我爱情的爱情
+2024-04-06 11:20:57,085 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:20:57,087 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:20:57,290 [INFO]: Output: 我想我想我想要想要做
+2024-04-06 11:21:06,572 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:06,574 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:06,769 [INFO]: Output: 我想我想要把我想要把
+2024-04-06 11:21:16,067 [INFO]: Epoch: 7, Iter: 300, Loss: 2.46458101272583
+2024-04-06 11:21:16,069 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:16,070 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:16,290 [INFO]: Output: 我是我想要做的。
+2024-04-06 11:21:18,468 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:18,469 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:18,652 [INFO]: Output: 我想我想要想要做的事
+2024-04-06 11:21:18,967 [INFO]: Epoch: 8, Iter: 0, Loss: 2.3841500282287598
+2024-04-06 11:21:18,969 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:18,969 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:19,149 [INFO]: Output: 我想我想要想要做好。
+2024-04-06 11:21:28,436 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:28,438 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:28,626 [INFO]: Output: 我想我想要想要的爱情
+2024-04-06 11:21:37,913 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:37,914 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:38,117 [INFO]: Output: 我想我想要把我的朋友。
+2024-04-06 11:21:47,408 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:47,410 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:47,600 [INFO]: Output: 我想我想要想要想的爱
+2024-04-06 11:21:50,697 [INFO]: Epoch: 8, Iter: 100, Loss: 2.5737900733947754
+2024-04-06 11:21:56,897 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:21:56,898 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:21:57,088 [INFO]: Output: 我想我想要爱爱的爱情
+2024-04-06 11:22:06,379 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:06,381 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:06,578 [INFO]: Output: 我喜欢我喜欢爱情。
+2024-04-06 11:22:15,861 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:15,863 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:16,062 [INFO]: Output: 我想我一点爱好。
+2024-04-06 11:22:22,243 [INFO]: Epoch: 8, Iter: 200, Loss: 2.532684326171875
+2024-04-06 11:22:25,338 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:25,339 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:25,527 [INFO]: Output: 我想要把一个朋友。
+2024-04-06 11:22:34,813 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:34,815 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:35,021 [INFO]: Output: 我想我想要把我的朋友。
+2024-04-06 11:22:44,309 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:44,311 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:44,518 [INFO]: Output: 我想我想一定一定要做
+2024-04-06 11:22:53,805 [INFO]: Epoch: 8, Iter: 300, Loss: 2.266059160232544
+2024-04-06 11:22:53,807 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:53,807 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:53,994 [INFO]: Output: 我想我想一点,我想要
+2024-04-06 11:22:56,189 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:56,189 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:56,383 [INFO]: Output: 我想我想知道,我想要做
+2024-04-06 11:22:56,695 [INFO]: Epoch: 9, Iter: 0, Loss: 2.4310450553894043
+2024-04-06 11:22:56,696 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:22:56,697 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:22:56,920 [INFO]: Output: 我想我想知道,我想要去
+2024-04-06 11:23:06,201 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:06,203 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:06,398 [INFO]: Output: 我想我一定是我爱好了
+2024-04-06 11:23:15,683 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:15,684 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:15,918 [INFO]: Output: 我想我想一定是爱情的
+2024-04-06 11:23:25,201 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:25,203 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:25,431 [INFO]: Output: 我想我一定要爱好。
+2024-04-06 11:23:28,531 [INFO]: Epoch: 9, Iter: 100, Loss: 2.241943120956421
+2024-04-06 11:23:34,715 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:34,716 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:34,901 [INFO]: Output: 我想我一定是我爱好。
+2024-04-06 11:23:44,177 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:44,178 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:44,391 [INFO]: Output: 我想我一定一定一定书
+2024-04-06 11:23:53,682 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:23:53,684 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:23:53,875 [INFO]: Output: 我喜欢爱情爱情,我喜欢爱
+2024-04-06 11:24:00,066 [INFO]: Epoch: 9, Iter: 200, Loss: 2.3831369876861572
+2024-04-06 11:24:03,163 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:24:03,165 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:24:03,356 [INFO]: Output: 我想我想一点我爱好了
+2024-04-06 11:24:12,646 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:24:12,649 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:24:12,828 [INFO]: Output: 我喜欢爱情的书。
+2024-04-06 11:24:22,119 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:24:22,121 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:24:22,288 [INFO]: Output: 我喜欢爱情的学生。
+2024-04-06 11:24:31,564 [INFO]: Epoch: 9, Iter: 300, Loss: 2.313663959503174
+2024-04-06 11:24:31,565 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:24:31,566 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:24:31,765 [INFO]: Output: 我想我想一点,我想要
+2024-04-06 11:24:33,956 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:24:33,957 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:24:34,161 [INFO]: Output: 我想我想一点我爱好了
+2024-04-06 11:26:55,743 [INFO]: Start training...
+2024-04-06 11:27:30,871 [INFO]: Start training...
+2024-04-06 11:27:40,286 [INFO]: Epoch: 0, Iter: 0, Loss: 2.3424510955810547
+2024-04-06 11:27:40,286 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:27:40,287 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:27:40,488 [INFO]: Output: 文章:我一定书籍。
+2024-04-06 11:27:49,553 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:27:49,554 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:27:49,737 [INFO]: Output: 我想我想一点爱好。
+2024-04-06 11:27:58,860 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:27:58,861 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:27:59,082 [INFO]: Output: 我想我一定是我爱的。
+2024-04-06 11:28:08,242 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:28:08,243 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:28:08,464 [INFO]: Output: 我想我一点,我爱好了。
+2024-04-06 11:28:11,529 [INFO]: Epoch: 0, Iter: 100, Loss: 2.2918639183044434
+2024-04-06 11:28:17,654 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:28:17,655 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:28:17,862 [INFO]: Output: 我想我想一名学生的学生。
+2024-04-06 11:28:27,046 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:28:27,047 [INFO]: src.encode: tensor([   2,   61,  490,    5,  347,   44, 1426,   61, 1243, 1159,   30,  532,
+         285, 1410, 1426,    3], device='cuda:0')
+2024-04-06 11:28:27,232 [INFO]: Output: 我想我一点我爱好。
+2024-04-06 11:29:15,257 [INFO]: Start training...
+2024-04-06 11:30:56,758 [INFO]: Epoch: 0, Iter: 0, Loss: 5.0906662940979
+2024-04-06 11:30:56,759 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:30:56,760 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:30:56,823 [INFO]: Output: said inst
+2024-04-06 11:31:27,164 [INFO]: Epoch: 0, Iter: 100, Loss: 3.588057279586792
+2024-04-06 11:31:57,828 [INFO]: Epoch: 0, Iter: 200, Loss: 3.355252265930176
+2024-04-06 11:32:28,563 [INFO]: Epoch: 0, Iter: 300, Loss: 3.16849684715271
+2024-04-06 11:32:59,337 [INFO]: Epoch: 0, Iter: 400, Loss: 3.1785593032836914
+2024-04-06 11:33:30,183 [INFO]: Epoch: 0, Iter: 500, Loss: 2.9391236305236816
+2024-04-06 11:34:01,040 [INFO]: Epoch: 0, Iter: 600, Loss: 2.931602954864502
+2024-04-06 11:34:31,937 [INFO]: Epoch: 0, Iter: 700, Loss: 2.8487775325775146
+2024-04-06 11:34:56,974 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:34:56,976 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:34:57,151 [INFO]: Output: 我想我想我想要。
+2024-04-06 11:35:03,030 [INFO]: Epoch: 0, Iter: 800, Loss: 2.706796169281006
+2024-04-06 11:35:34,047 [INFO]: Epoch: 0, Iter: 900, Loss: 2.8383944034576416
+2024-04-06 11:36:05,103 [INFO]: Epoch: 0, Iter: 1000, Loss: 2.589473247528076
+2024-04-06 11:36:36,143 [INFO]: Epoch: 0, Iter: 1100, Loss: 2.715775728225708
+2024-04-06 11:37:07,190 [INFO]: Epoch: 0, Iter: 1200, Loss: 2.6177563667297363
+2024-04-06 11:37:38,261 [INFO]: Epoch: 0, Iter: 1300, Loss: 2.6302237510681152
+2024-04-06 11:38:09,349 [INFO]: Epoch: 0, Iter: 1400, Loss: 2.5608696937561035
+2024-04-06 11:38:40,386 [INFO]: Epoch: 0, Iter: 1500, Loss: 2.6300084590911865
+2024-04-06 11:38:59,653 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:38:59,655 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:38:59,830 [INFO]: Output: 我想我想我想了。
+2024-04-06 11:39:11,634 [INFO]: Epoch: 0, Iter: 1600, Loss: 2.5752151012420654
+2024-04-06 11:39:42,688 [INFO]: Epoch: 0, Iter: 1700, Loss: 2.6314947605133057
+2024-04-06 11:40:13,776 [INFO]: Epoch: 0, Iter: 1800, Loss: 2.4708058834075928
+2024-04-06 11:40:44,863 [INFO]: Epoch: 0, Iter: 1900, Loss: 2.493882894515991
+2024-04-06 11:41:15,948 [INFO]: Epoch: 0, Iter: 2000, Loss: 2.4339599609375
+2024-04-06 11:41:47,045 [INFO]: Epoch: 0, Iter: 2100, Loss: 2.4011199474334717
+2024-04-06 11:42:18,098 [INFO]: Epoch: 0, Iter: 2200, Loss: 2.5536203384399414
+2024-04-06 11:42:49,192 [INFO]: Epoch: 0, Iter: 2300, Loss: 2.414877414703369
+2024-04-06 11:43:02,566 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:43:02,568 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:43:02,759 [INFO]: Output: 我是我爱情的书。
+2024-04-06 11:43:20,478 [INFO]: Epoch: 0, Iter: 2400, Loss: 2.357849359512329
+2024-04-06 11:43:51,573 [INFO]: Epoch: 0, Iter: 2500, Loss: 2.414327383041382
+2024-04-06 11:44:22,623 [INFO]: Epoch: 0, Iter: 2600, Loss: 2.4285993576049805
+2024-04-06 11:44:53,688 [INFO]: Epoch: 0, Iter: 2700, Loss: 2.4031686782836914
+2024-04-06 11:45:24,742 [INFO]: Epoch: 0, Iter: 2800, Loss: 2.3336117267608643
+2024-04-06 11:45:55,823 [INFO]: Epoch: 0, Iter: 2900, Loss: 2.4759228229522705
+2024-04-06 11:46:26,927 [INFO]: Epoch: 0, Iter: 3000, Loss: 2.3790509700775146
+2024-04-06 11:46:58,019 [INFO]: Epoch: 0, Iter: 3100, Loss: 2.2930338382720947
+2024-04-06 11:47:05,470 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:47:05,472 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:47:05,711 [INFO]: Output: 我爱情的书。我爱读书。
+2024-04-06 11:47:29,332 [INFO]: Epoch: 0, Iter: 3200, Loss: 2.402712821960449
+2024-04-06 11:48:00,416 [INFO]: Epoch: 0, Iter: 3300, Loss: 2.3024890422821045
+2024-04-06 11:48:31,487 [INFO]: Epoch: 0, Iter: 3400, Loss: 2.4524483680725098
+2024-04-06 11:49:02,579 [INFO]: Epoch: 0, Iter: 3500, Loss: 2.317979574203491
+2024-04-06 11:49:33,638 [INFO]: Epoch: 0, Iter: 3600, Loss: 2.265382766723633
+2024-04-06 11:50:04,698 [INFO]: Epoch: 0, Iter: 3700, Loss: 2.4802968502044678
+2024-04-06 11:50:35,774 [INFO]: Epoch: 0, Iter: 3800, Loss: 2.335688591003418
+2024-04-06 11:51:06,836 [INFO]: Epoch: 0, Iter: 3900, Loss: 2.319676160812378
+2024-04-06 11:51:08,398 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:51:08,400 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:51:08,724 [INFO]: Output: 学生是我爱的书。我读书书书。
+2024-04-06 11:51:38,235 [INFO]: Epoch: 0, Iter: 4000, Loss: 2.2575762271881104
+2024-04-06 11:52:09,295 [INFO]: Epoch: 0, Iter: 4100, Loss: 2.38601016998291
+2024-04-06 11:52:40,370 [INFO]: Epoch: 0, Iter: 4200, Loss: 2.2609682083129883
+2024-04-06 11:53:11,417 [INFO]: Epoch: 0, Iter: 4300, Loss: 2.2483839988708496
+2024-04-06 11:53:42,541 [INFO]: Epoch: 0, Iter: 4400, Loss: 2.241457223892212
+2024-04-06 11:54:13,608 [INFO]: Epoch: 0, Iter: 4500, Loss: 2.34065318107605
+2024-04-06 11:54:44,653 [INFO]: Epoch: 0, Iter: 4600, Loss: 2.1962568759918213
+2024-04-06 11:55:11,305 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:55:11,307 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:55:11,556 [INFO]: Output: 我在读书中读书。我读书。
+2024-04-06 11:55:15,886 [INFO]: Epoch: 0, Iter: 4700, Loss: 2.4137024879455566
+2024-04-06 11:55:46,792 [INFO]: Epoch: 0, Iter: 4800, Loss: 2.27370548248291
+2024-04-06 11:56:17,725 [INFO]: Epoch: 0, Iter: 4900, Loss: 2.1724703311920166
+2024-04-06 11:56:48,682 [INFO]: Epoch: 0, Iter: 5000, Loss: 2.174036979675293
+2024-04-06 11:57:19,654 [INFO]: Epoch: 0, Iter: 5100, Loss: 2.2200396060943604
+2024-04-06 11:57:50,661 [INFO]: Epoch: 0, Iter: 5200, Loss: 2.11024808883667
+2024-04-06 11:58:21,671 [INFO]: Epoch: 0, Iter: 5300, Loss: 2.3197739124298096
+2024-04-06 11:58:52,660 [INFO]: Epoch: 0, Iter: 5400, Loss: 2.2366902828216553
+2024-04-06 11:59:13,445 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 11:59:13,447 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 11:59:13,649 [INFO]: Output: 我的学生。我读了一个书。
+2024-04-06 11:59:23,899 [INFO]: Epoch: 0, Iter: 5500, Loss: 2.165336847305298
+2024-04-06 11:59:54,916 [INFO]: Epoch: 0, Iter: 5600, Loss: 2.125793218612671
+2024-04-06 12:00:26,688 [INFO]: Epoch: 0, Iter: 5700, Loss: 2.2679474353790283
+2024-04-06 12:00:57,599 [INFO]: Epoch: 0, Iter: 5800, Loss: 2.1650311946868896
+2024-04-06 12:01:28,460 [INFO]: Epoch: 0, Iter: 5900, Loss: 2.3224432468414307
+2024-04-06 12:01:59,375 [INFO]: Epoch: 0, Iter: 6000, Loss: 2.223799228668213
+2024-04-06 12:02:30,328 [INFO]: Epoch: 0, Iter: 6100, Loss: 2.1910622119903564
+2024-04-06 12:03:01,314 [INFO]: Epoch: 0, Iter: 6200, Loss: 2.2607195377349854
+2024-04-06 12:03:16,177 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:03:16,180 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:03:16,408 [INFO]: Output: 我一读爱读书。我读书。
+2024-04-06 12:03:32,530 [INFO]: Epoch: 0, Iter: 6300, Loss: 2.18825364112854
+2024-04-06 12:04:03,550 [INFO]: Epoch: 0, Iter: 6400, Loss: 2.071005344390869
+2024-04-06 12:04:34,533 [INFO]: Epoch: 0, Iter: 6500, Loss: 2.097278356552124
+2024-04-06 12:05:05,562 [INFO]: Epoch: 0, Iter: 6600, Loss: 2.4564969539642334
+2024-04-06 12:05:36,591 [INFO]: Epoch: 0, Iter: 6700, Loss: 2.082394599914551
+2024-04-06 12:06:07,652 [INFO]: Epoch: 0, Iter: 6800, Loss: 2.0017099380493164
+2024-04-06 12:06:38,555 [INFO]: Epoch: 0, Iter: 6900, Loss: 2.1235265731811523
+2024-04-06 12:07:09,486 [INFO]: Epoch: 0, Iter: 7000, Loss: 2.1683895587921143
+2024-04-06 12:07:18,468 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:07:18,471 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:07:18,712 [INFO]: Output: 我是个学生。我爱读书。
+2024-04-06 12:07:40,616 [INFO]: Epoch: 0, Iter: 7100, Loss: 2.0167624950408936
+2024-04-06 12:08:11,504 [INFO]: Epoch: 0, Iter: 7200, Loss: 1.9657644033432007
+2024-04-06 12:08:42,429 [INFO]: Epoch: 0, Iter: 7300, Loss: 2.0859038829803467
+2024-04-06 12:09:13,400 [INFO]: Epoch: 0, Iter: 7400, Loss: 2.0457699298858643
+2024-04-06 12:09:44,380 [INFO]: Epoch: 0, Iter: 7500, Loss: 2.101019859313965
+2024-04-06 12:10:15,313 [INFO]: Epoch: 0, Iter: 7600, Loss: 2.1222946643829346
+2024-04-06 12:10:46,245 [INFO]: Epoch: 0, Iter: 7700, Loss: 1.9473251104354858
+2024-04-06 12:11:17,115 [INFO]: Epoch: 0, Iter: 7800, Loss: 1.9784386157989502
+2024-04-06 12:11:20,205 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:11:20,207 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:11:20,411 [INFO]: Output: 我是个学生。我爱读书。
+2024-04-06 12:11:21,231 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:11:21,232 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:11:21,446 [INFO]: Output: 我是个学生。我爱读书。
+2024-04-06 12:11:21,813 [INFO]: Epoch: 1, Iter: 0, Loss: 1.9839072227478027
+2024-04-06 12:11:21,814 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:11:21,815 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:11:22,022 [INFO]: Output: 我是个学生。我爱读书。
+2024-04-06 12:11:53,015 [INFO]: Epoch: 1, Iter: 100, Loss: 2.1297452449798584
+2024-04-06 12:12:23,983 [INFO]: Epoch: 1, Iter: 200, Loss: 2.0797197818756104
+2024-04-06 12:12:55,003 [INFO]: Epoch: 1, Iter: 300, Loss: 2.012583017349243
+2024-04-06 12:13:26,002 [INFO]: Epoch: 1, Iter: 400, Loss: 1.9413676261901855
+2024-04-06 12:13:57,000 [INFO]: Epoch: 1, Iter: 500, Loss: 1.950731873512268
+2024-04-06 12:14:28,009 [INFO]: Epoch: 1, Iter: 600, Loss: 2.179001808166504
+2024-04-06 12:14:59,002 [INFO]: Epoch: 1, Iter: 700, Loss: 2.107971668243408
+2024-04-06 12:15:24,135 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:15:24,137 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:15:24,368 [INFO]: Output: 我是个学生。我爱上读书。
+2024-04-06 12:15:30,264 [INFO]: Epoch: 1, Iter: 800, Loss: 2.0318970680236816
+2024-04-06 12:16:01,229 [INFO]: Epoch: 1, Iter: 900, Loss: 2.132563829421997
+2024-04-06 12:16:32,264 [INFO]: Epoch: 1, Iter: 1000, Loss: 2.037944793701172
+2024-04-06 12:17:03,272 [INFO]: Epoch: 1, Iter: 1100, Loss: 2.061286687850952
+2024-04-06 12:17:34,290 [INFO]: Epoch: 1, Iter: 1200, Loss: 2.1296286582946777
+2024-04-06 12:18:05,281 [INFO]: Epoch: 1, Iter: 1300, Loss: 1.9549990892410278
+2024-04-06 12:18:36,256 [INFO]: Epoch: 1, Iter: 1400, Loss: 2.027379035949707
+2024-04-06 12:19:07,256 [INFO]: Epoch: 1, Iter: 1500, Loss: 1.9484981298446655
+2024-04-06 12:19:26,484 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:19:26,487 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:19:26,722 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:19:38,526 [INFO]: Epoch: 1, Iter: 1600, Loss: 1.994179129600525
+2024-04-06 12:20:09,567 [INFO]: Epoch: 1, Iter: 1700, Loss: 2.0779519081115723
+2024-04-06 12:20:40,655 [INFO]: Epoch: 1, Iter: 1800, Loss: 2.034940719604492
+2024-04-06 12:21:11,726 [INFO]: Epoch: 1, Iter: 1900, Loss: 2.1190345287323
+2024-04-06 12:21:42,854 [INFO]: Epoch: 1, Iter: 2000, Loss: 2.091745138168335
+2024-04-06 12:22:13,949 [INFO]: Epoch: 1, Iter: 2100, Loss: 1.9721826314926147
+2024-04-06 12:22:45,023 [INFO]: Epoch: 1, Iter: 2200, Loss: 2.1535792350769043
+2024-04-06 12:23:16,130 [INFO]: Epoch: 1, Iter: 2300, Loss: 1.9970296621322632
+2024-04-06 12:23:29,493 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:23:29,495 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:23:29,720 [INFO]: Output: 我爱读书。我喜欢读书。
+2024-04-06 12:23:47,442 [INFO]: Epoch: 1, Iter: 2400, Loss: 2.0709102153778076
+2024-04-06 12:24:18,546 [INFO]: Epoch: 1, Iter: 2500, Loss: 1.9641193151474
+2024-04-06 12:24:49,640 [INFO]: Epoch: 1, Iter: 2600, Loss: 1.9688754081726074
+2024-04-06 12:25:20,720 [INFO]: Epoch: 1, Iter: 2700, Loss: 1.9479899406433105
+2024-04-06 12:25:51,810 [INFO]: Epoch: 1, Iter: 2800, Loss: 1.6992098093032837
+2024-04-06 12:26:22,898 [INFO]: Epoch: 1, Iter: 2900, Loss: 2.0372602939605713
+2024-04-06 12:26:53,999 [INFO]: Epoch: 1, Iter: 3000, Loss: 1.9631555080413818
+2024-04-06 12:27:25,097 [INFO]: Epoch: 1, Iter: 3100, Loss: 2.011539936065674
+2024-04-06 12:27:32,550 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:27:32,552 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:27:32,756 [INFO]: Output: 我爱读书。我爱读书。
+2024-04-06 12:27:56,385 [INFO]: Epoch: 1, Iter: 3200, Loss: 1.987861156463623
+2024-04-06 12:28:27,439 [INFO]: Epoch: 1, Iter: 3300, Loss: 1.9761817455291748
+2024-04-06 12:28:58,543 [INFO]: Epoch: 1, Iter: 3400, Loss: 2.0135672092437744
+2024-04-06 12:29:29,670 [INFO]: Epoch: 1, Iter: 3500, Loss: 2.018162250518799
+2024-04-06 12:30:00,765 [INFO]: Epoch: 1, Iter: 3600, Loss: 1.8671725988388062
+2024-04-06 12:30:31,875 [INFO]: Epoch: 1, Iter: 3700, Loss: 1.8574661016464233
+2024-04-06 12:31:02,974 [INFO]: Epoch: 1, Iter: 3800, Loss: 1.8510898351669312
+2024-04-06 12:31:34,034 [INFO]: Epoch: 1, Iter: 3900, Loss: 1.797498106956482
+2024-04-06 12:31:35,587 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:31:35,589 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:31:35,824 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:32:05,389 [INFO]: Epoch: 1, Iter: 4000, Loss: 1.9801239967346191
+2024-04-06 12:32:36,517 [INFO]: Epoch: 1, Iter: 4100, Loss: 1.9292588233947754
+2024-04-06 12:33:07,648 [INFO]: Epoch: 1, Iter: 4200, Loss: 1.8781546354293823
+2024-04-06 12:33:38,747 [INFO]: Epoch: 1, Iter: 4300, Loss: 1.929735779762268
+2024-04-06 12:34:09,828 [INFO]: Epoch: 1, Iter: 4400, Loss: 1.9544795751571655
+2024-04-06 12:34:40,879 [INFO]: Epoch: 1, Iter: 4500, Loss: 2.0540380477905273
+2024-04-06 12:35:11,928 [INFO]: Epoch: 1, Iter: 4600, Loss: 1.9437435865402222
+2024-04-06 12:35:38,614 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:35:38,616 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:35:38,853 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:35:43,194 [INFO]: Epoch: 1, Iter: 4700, Loss: 1.973590612411499
+2024-04-06 12:36:14,175 [INFO]: Epoch: 1, Iter: 4800, Loss: 1.9903417825698853
+2024-04-06 12:36:45,109 [INFO]: Epoch: 1, Iter: 4900, Loss: 1.861507534980774
+2024-04-06 12:37:16,091 [INFO]: Epoch: 1, Iter: 5000, Loss: 1.7753372192382812
+2024-04-06 12:37:47,121 [INFO]: Epoch: 1, Iter: 5100, Loss: 1.9287512302398682
+2024-04-06 12:38:18,097 [INFO]: Epoch: 1, Iter: 5200, Loss: 1.855183720588684
+2024-04-06 12:38:49,106 [INFO]: Epoch: 1, Iter: 5300, Loss: 1.958203911781311
+2024-04-06 12:39:20,127 [INFO]: Epoch: 1, Iter: 5400, Loss: 1.9328330755233765
+2024-04-06 12:39:40,914 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:39:40,917 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:39:41,189 [INFO]: Output: 我喜欢读书。我喜欢读书。
+2024-04-06 12:39:51,423 [INFO]: Epoch: 1, Iter: 5500, Loss: 1.9145106077194214
+2024-04-06 12:40:22,426 [INFO]: Epoch: 1, Iter: 5600, Loss: 1.9547234773635864
+2024-04-06 12:40:53,441 [INFO]: Epoch: 1, Iter: 5700, Loss: 1.8711556196212769
+2024-04-06 12:41:24,432 [INFO]: Epoch: 1, Iter: 5800, Loss: 1.809350609779358
+2024-04-06 12:41:55,469 [INFO]: Epoch: 1, Iter: 5900, Loss: 1.9318944215774536
+2024-04-06 12:42:26,524 [INFO]: Epoch: 1, Iter: 6000, Loss: 1.8070482015609741
+2024-04-06 12:42:57,563 [INFO]: Epoch: 1, Iter: 6100, Loss: 1.8632854223251343
+2024-04-06 12:43:28,595 [INFO]: Epoch: 1, Iter: 6200, Loss: 1.8449735641479492
+2024-04-06 12:43:43,488 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:43:43,491 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:43:43,750 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:43:59,873 [INFO]: Epoch: 1, Iter: 6300, Loss: 1.8173834085464478
+2024-04-06 12:44:30,856 [INFO]: Epoch: 1, Iter: 6400, Loss: 1.8126280307769775
+2024-04-06 12:45:01,842 [INFO]: Epoch: 1, Iter: 6500, Loss: 1.8315004110336304
+2024-04-06 12:45:32,833 [INFO]: Epoch: 1, Iter: 6600, Loss: 1.7175098657608032
+2024-04-06 12:46:03,822 [INFO]: Epoch: 1, Iter: 6700, Loss: 1.8900247812271118
+2024-04-06 12:46:34,825 [INFO]: Epoch: 1, Iter: 6800, Loss: 1.7800631523132324
+2024-04-06 12:47:05,798 [INFO]: Epoch: 1, Iter: 6900, Loss: 1.9149470329284668
+2024-04-06 12:47:36,796 [INFO]: Epoch: 1, Iter: 7000, Loss: 1.791330337524414
+2024-04-06 12:47:45,788 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:47:45,790 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:47:46,044 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:48:08,036 [INFO]: Epoch: 1, Iter: 7100, Loss: 1.7606743574142456
+2024-04-06 12:48:39,044 [INFO]: Epoch: 1, Iter: 7200, Loss: 1.7549127340316772
+2024-04-06 12:49:10,061 [INFO]: Epoch: 1, Iter: 7300, Loss: 1.837695837020874
+2024-04-06 12:49:41,089 [INFO]: Epoch: 1, Iter: 7400, Loss: 1.7638698816299438
+2024-04-06 12:50:12,093 [INFO]: Epoch: 1, Iter: 7500, Loss: 1.8629745244979858
+2024-04-06 12:50:43,084 [INFO]: Epoch: 1, Iter: 7600, Loss: 1.9074053764343262
+2024-04-06 12:51:14,108 [INFO]: Epoch: 1, Iter: 7700, Loss: 1.8856948614120483
+2024-04-06 12:51:45,132 [INFO]: Epoch: 1, Iter: 7800, Loss: 1.9080017805099487
+2024-04-06 12:51:48,235 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:51:48,237 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:51:48,462 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:51:49,277 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:51:49,277 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:51:49,498 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:51:49,865 [INFO]: Epoch: 2, Iter: 0, Loss: 1.7416255474090576
+2024-04-06 12:51:49,867 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:51:49,867 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:51:50,089 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 12:52:21,103 [INFO]: Epoch: 2, Iter: 100, Loss: 1.8097662925720215
+2024-04-06 12:52:52,136 [INFO]: Epoch: 2, Iter: 200, Loss: 1.725426197052002
+2024-04-06 12:53:23,136 [INFO]: Epoch: 2, Iter: 300, Loss: 1.6249271631240845
+2024-04-06 12:53:54,157 [INFO]: Epoch: 2, Iter: 400, Loss: 1.7530525922775269
+2024-04-06 12:54:25,167 [INFO]: Epoch: 2, Iter: 500, Loss: 1.7074190378189087
+2024-04-06 12:54:56,154 [INFO]: Epoch: 2, Iter: 600, Loss: 1.7387630939483643
+2024-04-06 12:55:27,157 [INFO]: Epoch: 2, Iter: 700, Loss: 1.8305935859680176
+2024-04-06 12:55:52,263 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:55:52,266 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:55:52,483 [INFO]: Output: 我是学生。我喜欢阅读书。
+2024-04-06 12:55:58,368 [INFO]: Epoch: 2, Iter: 800, Loss: 1.8344626426696777
+2024-04-06 12:56:29,362 [INFO]: Epoch: 2, Iter: 900, Loss: 1.7814396619796753
+2024-04-06 12:57:00,363 [INFO]: Epoch: 2, Iter: 1000, Loss: 1.6505119800567627
+2024-04-06 12:57:31,349 [INFO]: Epoch: 2, Iter: 1100, Loss: 1.8192479610443115
+2024-04-06 12:58:02,340 [INFO]: Epoch: 2, Iter: 1200, Loss: 1.7156982421875
+2024-04-06 12:58:33,342 [INFO]: Epoch: 2, Iter: 1300, Loss: 1.7066984176635742
+2024-04-06 12:59:04,336 [INFO]: Epoch: 2, Iter: 1400, Loss: 1.761685848236084
+2024-04-06 12:59:35,351 [INFO]: Epoch: 2, Iter: 1500, Loss: 1.8888717889785767
+2024-04-06 12:59:54,574 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 12:59:54,577 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 12:59:54,813 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:00:06,586 [INFO]: Epoch: 2, Iter: 1600, Loss: 1.819991946220398
+2024-04-06 13:00:37,598 [INFO]: Epoch: 2, Iter: 1700, Loss: 1.783564805984497
+2024-04-06 13:01:08,589 [INFO]: Epoch: 2, Iter: 1800, Loss: 1.8172647953033447
+2024-04-06 13:01:39,665 [INFO]: Epoch: 2, Iter: 1900, Loss: 1.7031327486038208
+2024-04-06 13:02:10,651 [INFO]: Epoch: 2, Iter: 2000, Loss: 1.8528118133544922
+2024-04-06 13:02:41,651 [INFO]: Epoch: 2, Iter: 2100, Loss: 1.7566425800323486
+2024-04-06 13:03:12,687 [INFO]: Epoch: 2, Iter: 2200, Loss: 1.7575058937072754
+2024-04-06 13:03:43,741 [INFO]: Epoch: 2, Iter: 2300, Loss: 1.7414718866348267
+2024-04-06 13:03:57,099 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:03:57,102 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:03:57,360 [INFO]: Output: 我是个学生。我喜欢阅读书。
+2024-04-06 13:04:15,091 [INFO]: Epoch: 2, Iter: 2400, Loss: 1.8150358200073242
+2024-04-06 13:04:46,162 [INFO]: Epoch: 2, Iter: 2500, Loss: 1.6946487426757812
+2024-04-06 13:05:17,227 [INFO]: Epoch: 2, Iter: 2600, Loss: 1.760079026222229
+2024-04-06 13:05:48,277 [INFO]: Epoch: 2, Iter: 2700, Loss: 1.7848973274230957
+2024-04-06 13:06:19,349 [INFO]: Epoch: 2, Iter: 2800, Loss: 1.72581946849823
+2024-04-06 13:06:50,488 [INFO]: Epoch: 2, Iter: 2900, Loss: 1.7822036743164062
+2024-04-06 13:07:21,624 [INFO]: Epoch: 2, Iter: 3000, Loss: 1.6798934936523438
+2024-04-06 13:07:52,725 [INFO]: Epoch: 2, Iter: 3100, Loss: 1.854100227355957
+2024-04-06 13:08:00,194 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:08:00,196 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:08:00,499 [INFO]: Output: 我是个学生。我喜欢阅读书。
+2024-04-06 13:08:24,157 [INFO]: Epoch: 2, Iter: 3200, Loss: 1.6788508892059326
+2024-04-06 13:08:55,290 [INFO]: Epoch: 2, Iter: 3300, Loss: 1.5783860683441162
+2024-04-06 13:09:26,341 [INFO]: Epoch: 2, Iter: 3400, Loss: 1.8345330953598022
+2024-04-06 13:09:57,352 [INFO]: Epoch: 2, Iter: 3500, Loss: 1.7973135709762573
+2024-04-06 13:10:28,385 [INFO]: Epoch: 2, Iter: 3600, Loss: 1.7747536897659302
+2024-04-06 13:10:59,474 [INFO]: Epoch: 2, Iter: 3700, Loss: 1.7152166366577148
+2024-04-06 13:11:30,475 [INFO]: Epoch: 2, Iter: 3800, Loss: 1.7110642194747925
+2024-04-06 13:12:01,495 [INFO]: Epoch: 2, Iter: 3900, Loss: 1.7714080810546875
+2024-04-06 13:12:03,053 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:12:03,056 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:12:03,337 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:12:32,800 [INFO]: Epoch: 2, Iter: 4000, Loss: 1.6376103162765503
+2024-04-06 13:13:03,848 [INFO]: Epoch: 2, Iter: 4100, Loss: 1.7279173135757446
+2024-04-06 13:13:34,893 [INFO]: Epoch: 2, Iter: 4200, Loss: 1.8401390314102173
+2024-04-06 13:14:05,953 [INFO]: Epoch: 2, Iter: 4300, Loss: 1.7322427034378052
+2024-04-06 13:14:37,016 [INFO]: Epoch: 2, Iter: 4400, Loss: 1.6710484027862549
+2024-04-06 13:15:08,090 [INFO]: Epoch: 2, Iter: 4500, Loss: 1.7511931657791138
+2024-04-06 13:15:39,181 [INFO]: Epoch: 2, Iter: 4600, Loss: 1.6368554830551147
+2024-04-06 13:16:05,908 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:16:05,911 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:16:06,193 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:16:10,540 [INFO]: Epoch: 2, Iter: 4700, Loss: 1.8435626029968262
+2024-04-06 13:16:41,611 [INFO]: Epoch: 2, Iter: 4800, Loss: 1.6691021919250488
+2024-04-06 13:17:12,676 [INFO]: Epoch: 2, Iter: 4900, Loss: 1.7450380325317383
+2024-04-06 13:17:43,770 [INFO]: Epoch: 2, Iter: 5000, Loss: 1.812217354774475
+2024-04-06 13:18:14,818 [INFO]: Epoch: 2, Iter: 5100, Loss: 1.8122447729110718
+2024-04-06 13:18:45,872 [INFO]: Epoch: 2, Iter: 5200, Loss: 1.7044274806976318
+2024-04-06 13:19:16,979 [INFO]: Epoch: 2, Iter: 5300, Loss: 1.7458586692810059
+2024-04-06 13:19:48,084 [INFO]: Epoch: 2, Iter: 5400, Loss: 1.5938937664031982
+2024-04-06 13:20:08,908 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:20:08,911 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:20:09,141 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:20:19,386 [INFO]: Epoch: 2, Iter: 5500, Loss: 1.7771100997924805
+2024-04-06 13:20:50,462 [INFO]: Epoch: 2, Iter: 5600, Loss: 1.7167377471923828
+2024-04-06 13:21:21,495 [INFO]: Epoch: 2, Iter: 5700, Loss: 1.660266399383545
+2024-04-06 13:21:52,596 [INFO]: Epoch: 2, Iter: 5800, Loss: 1.8319960832595825
+2024-04-06 13:22:23,675 [INFO]: Epoch: 2, Iter: 5900, Loss: 1.573914647102356
+2024-04-06 13:22:54,775 [INFO]: Epoch: 2, Iter: 6000, Loss: 1.6723288297653198
+2024-04-06 13:23:25,854 [INFO]: Epoch: 2, Iter: 6100, Loss: 1.5763003826141357
+2024-04-06 13:23:56,931 [INFO]: Epoch: 2, Iter: 6200, Loss: 1.7683957815170288
+2024-04-06 13:24:11,851 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:24:11,853 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:24:12,077 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 13:24:28,257 [INFO]: Epoch: 2, Iter: 6300, Loss: 1.4448856115341187
+2024-04-06 13:24:59,346 [INFO]: Epoch: 2, Iter: 6400, Loss: 1.6694961786270142
+2024-04-06 13:25:30,484 [INFO]: Epoch: 2, Iter: 6500, Loss: 1.6368480920791626
+2024-04-06 13:26:01,595 [INFO]: Epoch: 2, Iter: 6600, Loss: 1.5955475568771362
+2024-04-06 13:26:32,693 [INFO]: Epoch: 2, Iter: 6700, Loss: 1.6299331188201904
+2024-04-06 13:27:03,837 [INFO]: Epoch: 2, Iter: 6800, Loss: 1.5252587795257568
+2024-04-06 13:27:35,024 [INFO]: Epoch: 2, Iter: 6900, Loss: 1.622725009918213
+2024-04-06 13:28:06,222 [INFO]: Epoch: 2, Iter: 7000, Loss: 1.656427264213562
+2024-04-06 13:28:15,270 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:28:15,273 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:28:15,511 [INFO]: Output: 我是学生,我喜欢读书。
+2024-04-06 13:28:37,577 [INFO]: Epoch: 2, Iter: 7100, Loss: 1.699074149131775
+2024-04-06 13:29:08,621 [INFO]: Epoch: 2, Iter: 7200, Loss: 1.7552224397659302
+2024-04-06 13:29:39,685 [INFO]: Epoch: 2, Iter: 7300, Loss: 1.683958888053894
+2024-04-06 13:30:10,717 [INFO]: Epoch: 2, Iter: 7400, Loss: 1.7110286951065063
+2024-04-06 13:30:41,770 [INFO]: Epoch: 2, Iter: 7500, Loss: 1.6125919818878174
+2024-04-06 13:31:12,788 [INFO]: Epoch: 2, Iter: 7600, Loss: 1.6745482683181763
+2024-04-06 13:31:43,856 [INFO]: Epoch: 2, Iter: 7700, Loss: 1.7141526937484741
+2024-04-06 13:32:14,892 [INFO]: Epoch: 2, Iter: 7800, Loss: 1.6204068660736084
+2024-04-06 13:32:17,994 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:32:17,996 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:32:18,232 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:32:19,041 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:32:19,042 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:32:19,267 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:32:19,636 [INFO]: Epoch: 3, Iter: 0, Loss: 1.6937155723571777
+2024-04-06 13:32:19,637 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:32:19,638 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:32:19,858 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:32:50,841 [INFO]: Epoch: 3, Iter: 100, Loss: 1.6696827411651611
+2024-04-06 13:33:21,789 [INFO]: Epoch: 3, Iter: 200, Loss: 1.65016508102417
+2024-04-06 13:33:52,736 [INFO]: Epoch: 3, Iter: 300, Loss: 1.5647594928741455
+2024-04-06 13:34:23,727 [INFO]: Epoch: 3, Iter: 400, Loss: 1.612809658050537
+2024-04-06 13:34:54,758 [INFO]: Epoch: 3, Iter: 500, Loss: 1.597450613975525
+2024-04-06 13:35:25,816 [INFO]: Epoch: 3, Iter: 600, Loss: 1.602279782295227
+2024-04-06 13:35:56,874 [INFO]: Epoch: 3, Iter: 700, Loss: 1.6702604293823242
+2024-04-06 13:36:22,043 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:36:22,045 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:36:22,265 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:36:28,178 [INFO]: Epoch: 3, Iter: 800, Loss: 1.6756267547607422
+2024-04-06 13:36:59,262 [INFO]: Epoch: 3, Iter: 900, Loss: 1.6076948642730713
+2024-04-06 13:37:30,355 [INFO]: Epoch: 3, Iter: 1000, Loss: 1.523644208908081
+2024-04-06 13:38:01,506 [INFO]: Epoch: 3, Iter: 1100, Loss: 1.536029577255249
+2024-04-06 13:38:32,620 [INFO]: Epoch: 3, Iter: 1200, Loss: 1.7056931257247925
+2024-04-06 13:39:03,704 [INFO]: Epoch: 3, Iter: 1300, Loss: 1.6600972414016724
+2024-04-06 13:39:34,799 [INFO]: Epoch: 3, Iter: 1400, Loss: 1.5660545825958252
+2024-04-06 13:40:05,888 [INFO]: Epoch: 3, Iter: 1500, Loss: 1.5292980670928955
+2024-04-06 13:40:25,162 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:40:25,165 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:40:25,388 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 13:40:37,199 [INFO]: Epoch: 3, Iter: 1600, Loss: 1.6702237129211426
+2024-04-06 13:41:08,265 [INFO]: Epoch: 3, Iter: 1700, Loss: 1.6313893795013428
+2024-04-06 13:41:39,347 [INFO]: Epoch: 3, Iter: 1800, Loss: 1.6626408100128174
+2024-04-06 13:42:10,399 [INFO]: Epoch: 3, Iter: 1900, Loss: 1.6592484712600708
+2024-04-06 13:42:41,444 [INFO]: Epoch: 3, Iter: 2000, Loss: 1.5646512508392334
+2024-04-06 13:43:12,503 [INFO]: Epoch: 3, Iter: 2100, Loss: 1.6374880075454712
+2024-04-06 13:43:43,556 [INFO]: Epoch: 3, Iter: 2200, Loss: 1.5259625911712646
+2024-04-06 13:44:14,622 [INFO]: Epoch: 3, Iter: 2300, Loss: 1.7641756534576416
+2024-04-06 13:44:27,975 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:44:27,977 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:44:28,201 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 13:44:45,942 [INFO]: Epoch: 3, Iter: 2400, Loss: 1.5879977941513062
+2024-04-06 13:45:17,034 [INFO]: Epoch: 3, Iter: 2500, Loss: 1.5369811058044434
+2024-04-06 13:45:48,100 [INFO]: Epoch: 3, Iter: 2600, Loss: 1.6387379169464111
+2024-04-06 13:46:19,202 [INFO]: Epoch: 3, Iter: 2700, Loss: 1.6277629137039185
+2024-04-06 13:46:50,288 [INFO]: Epoch: 3, Iter: 2800, Loss: 1.6874076128005981
+2024-04-06 13:47:21,367 [INFO]: Epoch: 3, Iter: 2900, Loss: 1.6125589609146118
+2024-04-06 13:47:52,449 [INFO]: Epoch: 3, Iter: 3000, Loss: 1.5716477632522583
+2024-04-06 13:48:23,508 [INFO]: Epoch: 3, Iter: 3100, Loss: 1.6726638078689575
+2024-04-06 13:48:30,964 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:48:30,966 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:48:31,166 [INFO]: Output: 我是学生。我喜欢读书。
+2024-04-06 13:48:54,784 [INFO]: Epoch: 3, Iter: 3200, Loss: 1.5165324211120605
+2024-04-06 13:49:25,848 [INFO]: Epoch: 3, Iter: 3300, Loss: 1.6974526643753052
+2024-04-06 13:49:56,887 [INFO]: Epoch: 3, Iter: 3400, Loss: 1.5300496816635132
+2024-04-06 13:50:27,975 [INFO]: Epoch: 3, Iter: 3500, Loss: 1.7413991689682007
+2024-04-06 13:50:59,037 [INFO]: Epoch: 3, Iter: 3600, Loss: 1.6484339237213135
+2024-04-06 13:51:30,108 [INFO]: Epoch: 3, Iter: 3700, Loss: 1.5431818962097168
+2024-04-06 13:52:01,197 [INFO]: Epoch: 3, Iter: 3800, Loss: 1.565268874168396
+2024-04-06 13:52:32,296 [INFO]: Epoch: 3, Iter: 3900, Loss: 1.6396323442459106
+2024-04-06 13:52:33,858 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:52:33,860 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:52:34,079 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 13:53:03,591 [INFO]: Epoch: 3, Iter: 4000, Loss: 1.520135760307312
+2024-04-06 13:53:34,648 [INFO]: Epoch: 3, Iter: 4100, Loss: 1.5139496326446533
+2024-04-06 13:54:05,708 [INFO]: Epoch: 3, Iter: 4200, Loss: 1.6121103763580322
+2024-04-06 13:54:36,756 [INFO]: Epoch: 3, Iter: 4300, Loss: 1.6143534183502197
+2024-04-06 13:55:07,792 [INFO]: Epoch: 3, Iter: 4400, Loss: 1.614482045173645
+2024-04-06 13:55:38,880 [INFO]: Epoch: 3, Iter: 4500, Loss: 1.6420646905899048
+2024-04-06 13:56:09,936 [INFO]: Epoch: 3, Iter: 4600, Loss: 1.4867016077041626
+2024-04-06 13:56:36,662 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 13:56:36,664 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 13:56:36,886 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 13:56:41,233 [INFO]: Epoch: 3, Iter: 4700, Loss: 1.6250481605529785
+2024-04-06 13:57:12,306 [INFO]: Epoch: 3, Iter: 4800, Loss: 1.5391013622283936
+2024-04-06 13:57:43,384 [INFO]: Epoch: 3, Iter: 4900, Loss: 1.5374367237091064
+2024-04-06 13:58:14,456 [INFO]: Epoch: 3, Iter: 5000, Loss: 1.588611364364624
+2024-04-06 13:58:45,545 [INFO]: Epoch: 3, Iter: 5100, Loss: 1.537982702255249
+2024-04-06 13:59:16,615 [INFO]: Epoch: 3, Iter: 5200, Loss: 1.6421257257461548
+2024-04-06 13:59:47,708 [INFO]: Epoch: 3, Iter: 5300, Loss: 1.462654709815979
+2024-04-06 14:00:18,774 [INFO]: Epoch: 3, Iter: 5400, Loss: 1.5857934951782227
+2024-04-06 14:00:39,590 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:00:39,593 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:00:39,832 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:00:50,092 [INFO]: Epoch: 3, Iter: 5500, Loss: 1.4730652570724487
+2024-04-06 14:01:21,195 [INFO]: Epoch: 3, Iter: 5600, Loss: 1.434226155281067
+2024-04-06 14:01:52,304 [INFO]: Epoch: 3, Iter: 5700, Loss: 1.626816749572754
+2024-04-06 14:02:23,391 [INFO]: Epoch: 3, Iter: 5800, Loss: 1.6549850702285767
+2024-04-06 14:02:54,470 [INFO]: Epoch: 3, Iter: 5900, Loss: 1.558837890625
+2024-04-06 14:03:25,538 [INFO]: Epoch: 3, Iter: 6000, Loss: 1.4419893026351929
+2024-04-06 14:03:56,624 [INFO]: Epoch: 3, Iter: 6100, Loss: 1.6024922132492065
+2024-04-06 14:04:27,699 [INFO]: Epoch: 3, Iter: 6200, Loss: 1.514832854270935
+2024-04-06 14:04:42,625 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:04:42,627 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:04:42,866 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:04:59,041 [INFO]: Epoch: 3, Iter: 6300, Loss: 1.5742839574813843
+2024-04-06 14:05:30,143 [INFO]: Epoch: 3, Iter: 6400, Loss: 1.7551871538162231
+2024-04-06 14:06:01,228 [INFO]: Epoch: 3, Iter: 6500, Loss: 1.608364224433899
+2024-04-06 14:06:32,285 [INFO]: Epoch: 3, Iter: 6600, Loss: 1.633387565612793
+2024-04-06 14:07:03,352 [INFO]: Epoch: 3, Iter: 6700, Loss: 1.5162149667739868
+2024-04-06 14:07:34,418 [INFO]: Epoch: 3, Iter: 6800, Loss: 1.5170567035675049
+2024-04-06 14:08:05,495 [INFO]: Epoch: 3, Iter: 6900, Loss: 1.5618269443511963
+2024-04-06 14:08:36,576 [INFO]: Epoch: 3, Iter: 7000, Loss: 1.5526020526885986
+2024-04-06 14:08:45,602 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:08:45,604 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:08:45,880 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 14:09:07,938 [INFO]: Epoch: 3, Iter: 7100, Loss: 1.5700236558914185
+2024-04-06 14:09:38,990 [INFO]: Epoch: 3, Iter: 7200, Loss: 1.5874115228652954
+2024-04-06 14:10:10,081 [INFO]: Epoch: 3, Iter: 7300, Loss: 1.6258857250213623
+2024-04-06 14:10:41,160 [INFO]: Epoch: 3, Iter: 7400, Loss: 1.6689532995224
+2024-04-06 14:11:12,251 [INFO]: Epoch: 3, Iter: 7500, Loss: 1.45558500289917
+2024-04-06 14:11:43,346 [INFO]: Epoch: 3, Iter: 7600, Loss: 1.5583971738815308
+2024-04-06 14:12:14,376 [INFO]: Epoch: 3, Iter: 7700, Loss: 1.4970357418060303
+2024-04-06 14:12:45,452 [INFO]: Epoch: 3, Iter: 7800, Loss: 1.6570261716842651
+2024-04-06 14:12:48,555 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:12:48,558 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:12:48,785 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:12:49,600 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:12:49,601 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:12:49,828 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:12:50,199 [INFO]: Epoch: 4, Iter: 0, Loss: 1.57059907913208
+2024-04-06 14:12:50,201 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:12:50,202 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:12:50,454 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:13:21,510 [INFO]: Epoch: 4, Iter: 100, Loss: 1.4520264863967896
+2024-04-06 14:13:52,598 [INFO]: Epoch: 4, Iter: 200, Loss: 1.5199657678604126
+2024-04-06 14:14:23,681 [INFO]: Epoch: 4, Iter: 300, Loss: 1.5751540660858154
+2024-04-06 14:14:54,766 [INFO]: Epoch: 4, Iter: 400, Loss: 1.4002352952957153
+2024-04-06 14:15:25,826 [INFO]: Epoch: 4, Iter: 500, Loss: 1.532853364944458
+2024-04-06 14:15:56,895 [INFO]: Epoch: 4, Iter: 600, Loss: 1.431902527809143
+2024-04-06 14:16:27,982 [INFO]: Epoch: 4, Iter: 700, Loss: 1.4687117338180542
+2024-04-06 14:16:53,146 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:16:53,148 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:16:53,376 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:16:59,282 [INFO]: Epoch: 4, Iter: 800, Loss: 1.6448328495025635
+2024-04-06 14:17:30,363 [INFO]: Epoch: 4, Iter: 900, Loss: 1.5195486545562744
+2024-04-06 14:18:01,437 [INFO]: Epoch: 4, Iter: 1000, Loss: 1.4730356931686401
+2024-04-06 14:18:32,544 [INFO]: Epoch: 4, Iter: 1100, Loss: 1.4502127170562744
+2024-04-06 14:19:03,630 [INFO]: Epoch: 4, Iter: 1200, Loss: 1.4700430631637573
+2024-04-06 14:19:34,711 [INFO]: Epoch: 4, Iter: 1300, Loss: 1.4469916820526123
+2024-04-06 14:20:05,761 [INFO]: Epoch: 4, Iter: 1400, Loss: 1.596105694770813
+2024-04-06 14:20:36,750 [INFO]: Epoch: 4, Iter: 1500, Loss: 1.4349185228347778
+2024-04-06 14:20:55,952 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:20:55,954 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:20:56,195 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:21:07,967 [INFO]: Epoch: 4, Iter: 1600, Loss: 1.662841558456421
+2024-04-06 14:21:38,978 [INFO]: Epoch: 4, Iter: 1700, Loss: 1.5331652164459229
+2024-04-06 14:22:10,019 [INFO]: Epoch: 4, Iter: 1800, Loss: 1.5946818590164185
+2024-04-06 14:22:41,081 [INFO]: Epoch: 4, Iter: 1900, Loss: 1.5955342054367065
+2024-04-06 14:23:12,125 [INFO]: Epoch: 4, Iter: 2000, Loss: 1.5023874044418335
+2024-04-06 14:23:43,178 [INFO]: Epoch: 4, Iter: 2100, Loss: 1.5091501474380493
+2024-04-06 14:24:14,232 [INFO]: Epoch: 4, Iter: 2200, Loss: 1.617736577987671
+2024-04-06 14:24:45,252 [INFO]: Epoch: 4, Iter: 2300, Loss: 1.551297903060913
+2024-04-06 14:24:58,608 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:24:58,610 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:24:58,856 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:25:16,555 [INFO]: Epoch: 4, Iter: 2400, Loss: 1.560632586479187
+2024-04-06 14:25:47,594 [INFO]: Epoch: 4, Iter: 2500, Loss: 1.5275239944458008
+2024-04-06 14:26:18,627 [INFO]: Epoch: 4, Iter: 2600, Loss: 1.5460221767425537
+2024-04-06 14:26:49,678 [INFO]: Epoch: 4, Iter: 2700, Loss: 1.5613887310028076
+2024-04-06 14:27:20,741 [INFO]: Epoch: 4, Iter: 2800, Loss: 1.5671275854110718
+2024-04-06 14:27:51,807 [INFO]: Epoch: 4, Iter: 2900, Loss: 1.3862987756729126
+2024-04-06 14:28:22,866 [INFO]: Epoch: 4, Iter: 3000, Loss: 1.5662243366241455
+2024-04-06 14:28:53,929 [INFO]: Epoch: 4, Iter: 3100, Loss: 1.4505504369735718
+2024-04-06 14:29:01,381 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:29:01,383 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:29:01,604 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:29:25,195 [INFO]: Epoch: 4, Iter: 3200, Loss: 1.4156965017318726
+2024-04-06 14:29:56,248 [INFO]: Epoch: 4, Iter: 3300, Loss: 1.4773341417312622
+2024-04-06 14:30:27,331 [INFO]: Epoch: 4, Iter: 3400, Loss: 1.5285488367080688
+2024-04-06 14:30:58,493 [INFO]: Epoch: 4, Iter: 3500, Loss: 1.5158863067626953
+2024-04-06 14:31:29,579 [INFO]: Epoch: 4, Iter: 3600, Loss: 1.546571969985962
+2024-04-06 14:32:00,657 [INFO]: Epoch: 4, Iter: 3700, Loss: 1.636507511138916
+2024-04-06 14:32:31,746 [INFO]: Epoch: 4, Iter: 3800, Loss: 1.5562394857406616
+2024-04-06 14:33:02,866 [INFO]: Epoch: 4, Iter: 3900, Loss: 1.5710242986679077
+2024-04-06 14:33:04,418 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:33:04,419 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:33:04,640 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 14:33:34,165 [INFO]: Epoch: 4, Iter: 4000, Loss: 1.578521728515625
+2024-04-06 14:34:05,277 [INFO]: Epoch: 4, Iter: 4100, Loss: 1.56221604347229
+2024-04-06 14:34:36,360 [INFO]: Epoch: 4, Iter: 4200, Loss: 1.3676966428756714
+2024-04-06 14:35:07,444 [INFO]: Epoch: 4, Iter: 4300, Loss: 1.4601112604141235
+2024-04-06 14:35:38,546 [INFO]: Epoch: 4, Iter: 4400, Loss: 1.501387357711792
+2024-04-06 14:36:09,626 [INFO]: Epoch: 4, Iter: 4500, Loss: 1.5714386701583862
+2024-04-06 14:36:40,690 [INFO]: Epoch: 4, Iter: 4600, Loss: 1.514151930809021
+2024-04-06 14:37:07,405 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:37:07,408 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:37:07,648 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:37:11,995 [INFO]: Epoch: 4, Iter: 4700, Loss: 1.5050628185272217
+2024-04-06 14:37:43,045 [INFO]: Epoch: 4, Iter: 4800, Loss: 1.4902303218841553
+2024-04-06 14:38:14,095 [INFO]: Epoch: 4, Iter: 4900, Loss: 1.4611623287200928
+2024-04-06 14:38:45,153 [INFO]: Epoch: 4, Iter: 5000, Loss: 1.5776622295379639
+2024-04-06 14:39:16,214 [INFO]: Epoch: 4, Iter: 5100, Loss: 1.5898338556289673
+2024-04-06 14:39:47,294 [INFO]: Epoch: 4, Iter: 5200, Loss: 1.5358015298843384
+2024-04-06 14:40:18,375 [INFO]: Epoch: 4, Iter: 5300, Loss: 1.5474740266799927
+2024-04-06 14:40:49,452 [INFO]: Epoch: 4, Iter: 5400, Loss: 1.5137271881103516
+2024-04-06 14:41:10,272 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:41:10,275 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:41:10,505 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:41:20,757 [INFO]: Epoch: 4, Iter: 5500, Loss: 1.4709144830703735
+2024-04-06 14:41:51,784 [INFO]: Epoch: 4, Iter: 5600, Loss: 1.5703964233398438
+2024-04-06 14:42:22,819 [INFO]: Epoch: 4, Iter: 5700, Loss: 1.3646608591079712
+2024-04-06 14:42:53,864 [INFO]: Epoch: 4, Iter: 5800, Loss: 1.6040538549423218
+2024-04-06 14:43:24,920 [INFO]: Epoch: 4, Iter: 5900, Loss: 1.4915153980255127
+2024-04-06 14:43:55,970 [INFO]: Epoch: 4, Iter: 6000, Loss: 1.5186399221420288
+2024-04-06 14:44:27,028 [INFO]: Epoch: 4, Iter: 6100, Loss: 1.3920814990997314
+2024-04-06 14:44:58,095 [INFO]: Epoch: 4, Iter: 6200, Loss: 1.3793151378631592
+2024-04-06 14:45:13,032 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:45:13,035 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:45:13,306 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:45:29,454 [INFO]: Epoch: 4, Iter: 6300, Loss: 1.3072474002838135
+2024-04-06 14:46:00,515 [INFO]: Epoch: 4, Iter: 6400, Loss: 1.5086339712142944
+2024-04-06 14:46:31,576 [INFO]: Epoch: 4, Iter: 6500, Loss: 1.3445430994033813
+2024-04-06 14:47:02,644 [INFO]: Epoch: 4, Iter: 6600, Loss: 1.5525479316711426
+2024-04-06 14:47:33,723 [INFO]: Epoch: 4, Iter: 6700, Loss: 1.4327975511550903
+2024-04-06 14:48:04,806 [INFO]: Epoch: 4, Iter: 6800, Loss: 1.4211461544036865
+2024-04-06 14:48:35,900 [INFO]: Epoch: 4, Iter: 6900, Loss: 1.5439932346343994
+2024-04-06 14:49:06,990 [INFO]: Epoch: 4, Iter: 7000, Loss: 1.5463438034057617
+2024-04-06 14:49:16,000 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:49:16,002 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:49:16,239 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:49:38,319 [INFO]: Epoch: 4, Iter: 7100, Loss: 1.502593994140625
+2024-04-06 14:50:09,379 [INFO]: Epoch: 4, Iter: 7200, Loss: 1.5039068460464478
+2024-04-06 14:50:40,428 [INFO]: Epoch: 4, Iter: 7300, Loss: 1.4679890871047974
+2024-04-06 14:51:11,489 [INFO]: Epoch: 4, Iter: 7400, Loss: 1.5423929691314697
+2024-04-06 14:51:42,541 [INFO]: Epoch: 4, Iter: 7500, Loss: 1.4171890020370483
+2024-04-06 14:52:13,627 [INFO]: Epoch: 4, Iter: 7600, Loss: 1.399524450302124
+2024-04-06 14:52:44,712 [INFO]: Epoch: 4, Iter: 7700, Loss: 1.4481146335601807
+2024-04-06 14:53:15,773 [INFO]: Epoch: 4, Iter: 7800, Loss: 1.3576104640960693
+2024-04-06 14:53:18,878 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:53:18,881 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:53:19,108 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:53:19,918 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:53:19,919 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:53:20,150 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:53:20,521 [INFO]: Epoch: 5, Iter: 0, Loss: 1.3379703760147095
+2024-04-06 14:53:20,523 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:53:20,523 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:53:20,741 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:53:51,826 [INFO]: Epoch: 5, Iter: 100, Loss: 1.4382703304290771
+2024-04-06 14:54:22,916 [INFO]: Epoch: 5, Iter: 200, Loss: 1.426379919052124
+2024-04-06 14:54:53,988 [INFO]: Epoch: 5, Iter: 300, Loss: 1.487409234046936
+2024-04-06 14:55:25,061 [INFO]: Epoch: 5, Iter: 400, Loss: 1.414453387260437
+2024-04-06 14:55:56,157 [INFO]: Epoch: 5, Iter: 500, Loss: 1.3489512205123901
+2024-04-06 14:56:27,255 [INFO]: Epoch: 5, Iter: 600, Loss: 1.460863471031189
+2024-04-06 14:56:58,362 [INFO]: Epoch: 5, Iter: 700, Loss: 1.4230800867080688
+2024-04-06 14:57:23,552 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 14:57:23,554 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 14:57:23,774 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 14:57:29,691 [INFO]: Epoch: 5, Iter: 800, Loss: 1.4932767152786255
+2024-04-06 14:58:00,746 [INFO]: Epoch: 5, Iter: 900, Loss: 1.5383577346801758
+2024-04-06 14:58:31,838 [INFO]: Epoch: 5, Iter: 1000, Loss: 1.6461845636367798
+2024-04-06 14:59:02,927 [INFO]: Epoch: 5, Iter: 1100, Loss: 1.5714647769927979
+2024-04-06 14:59:34,031 [INFO]: Epoch: 5, Iter: 1200, Loss: 1.539246678352356
+2024-04-06 15:00:05,163 [INFO]: Epoch: 5, Iter: 1300, Loss: 1.4357205629348755
+2024-04-06 15:00:36,254 [INFO]: Epoch: 5, Iter: 1400, Loss: 1.51054847240448
+2024-04-06 15:01:07,376 [INFO]: Epoch: 5, Iter: 1500, Loss: 1.5573248863220215
+2024-04-06 15:01:26,661 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:01:26,663 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:01:26,909 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:01:38,722 [INFO]: Epoch: 5, Iter: 1600, Loss: 1.4103702306747437
+2024-04-06 15:02:09,832 [INFO]: Epoch: 5, Iter: 1700, Loss: 1.4899948835372925
+2024-04-06 15:02:40,954 [INFO]: Epoch: 5, Iter: 1800, Loss: 1.4422188997268677
+2024-04-06 15:03:12,067 [INFO]: Epoch: 5, Iter: 1900, Loss: 1.4382004737854004
+2024-04-06 15:03:43,165 [INFO]: Epoch: 5, Iter: 2000, Loss: 1.3126096725463867
+2024-04-06 15:04:14,258 [INFO]: Epoch: 5, Iter: 2100, Loss: 1.3472989797592163
+2024-04-06 15:04:45,400 [INFO]: Epoch: 5, Iter: 2200, Loss: 1.524951696395874
+2024-04-06 15:05:16,505 [INFO]: Epoch: 5, Iter: 2300, Loss: 1.4587957859039307
+2024-04-06 15:05:29,865 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:05:29,867 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:05:30,086 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:05:47,801 [INFO]: Epoch: 5, Iter: 2400, Loss: 1.3660279512405396
+2024-04-06 15:06:18,907 [INFO]: Epoch: 5, Iter: 2500, Loss: 1.4851915836334229
+2024-04-06 15:06:50,012 [INFO]: Epoch: 5, Iter: 2600, Loss: 1.4966830015182495
+2024-04-06 15:07:21,155 [INFO]: Epoch: 5, Iter: 2700, Loss: 1.5122183561325073
+2024-04-06 15:07:52,278 [INFO]: Epoch: 5, Iter: 2800, Loss: 1.3582276105880737
+2024-04-06 15:08:23,382 [INFO]: Epoch: 5, Iter: 2900, Loss: 1.436001181602478
+2024-04-06 15:08:54,524 [INFO]: Epoch: 5, Iter: 3000, Loss: 1.5836541652679443
+2024-04-06 15:09:25,626 [INFO]: Epoch: 5, Iter: 3100, Loss: 1.3643519878387451
+2024-04-06 15:09:33,099 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:09:33,101 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:09:33,326 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:09:56,939 [INFO]: Epoch: 5, Iter: 3200, Loss: 1.3291652202606201
+2024-04-06 15:10:28,036 [INFO]: Epoch: 5, Iter: 3300, Loss: 1.439344048500061
+2024-04-06 15:10:59,119 [INFO]: Epoch: 5, Iter: 3400, Loss: 1.401123285293579
+2024-04-06 15:11:30,194 [INFO]: Epoch: 5, Iter: 3500, Loss: 1.425802230834961
+2024-04-06 15:12:01,290 [INFO]: Epoch: 5, Iter: 3600, Loss: 1.4383759498596191
+2024-04-06 15:12:32,400 [INFO]: Epoch: 5, Iter: 3700, Loss: 1.4805948734283447
+2024-04-06 15:13:03,509 [INFO]: Epoch: 5, Iter: 3800, Loss: 1.5563839673995972
+2024-04-06 15:13:34,592 [INFO]: Epoch: 5, Iter: 3900, Loss: 1.4800052642822266
+2024-04-06 15:13:36,144 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:13:36,146 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:13:36,365 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:14:05,902 [INFO]: Epoch: 5, Iter: 4000, Loss: 1.404427170753479
+2024-04-06 15:14:36,986 [INFO]: Epoch: 5, Iter: 4100, Loss: 1.4854835271835327
+2024-04-06 15:15:08,106 [INFO]: Epoch: 5, Iter: 4200, Loss: 1.2533847093582153
+2024-04-06 15:15:39,194 [INFO]: Epoch: 5, Iter: 4300, Loss: 1.3767495155334473
+2024-04-06 15:16:10,273 [INFO]: Epoch: 5, Iter: 4400, Loss: 1.3669509887695312
+2024-04-06 15:16:41,334 [INFO]: Epoch: 5, Iter: 4500, Loss: 1.4265735149383545
+2024-04-06 15:17:12,393 [INFO]: Epoch: 5, Iter: 4600, Loss: 1.350664496421814
+2024-04-06 15:17:39,125 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:17:39,127 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:17:39,366 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:17:43,714 [INFO]: Epoch: 5, Iter: 4700, Loss: 1.4291430711746216
+2024-04-06 15:18:14,844 [INFO]: Epoch: 5, Iter: 4800, Loss: 1.3230613470077515
+2024-04-06 15:18:45,985 [INFO]: Epoch: 5, Iter: 4900, Loss: 1.533200979232788
+2024-04-06 15:19:17,117 [INFO]: Epoch: 5, Iter: 5000, Loss: 1.5285314321517944
+2024-04-06 15:19:48,188 [INFO]: Epoch: 5, Iter: 5100, Loss: 1.6546701192855835
+2024-04-06 15:20:19,246 [INFO]: Epoch: 5, Iter: 5200, Loss: 1.4985471963882446
+2024-04-06 15:20:50,301 [INFO]: Epoch: 5, Iter: 5300, Loss: 1.3885008096694946
+2024-04-06 15:21:21,368 [INFO]: Epoch: 5, Iter: 5400, Loss: 1.3712172508239746
+2024-04-06 15:21:42,189 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:21:42,191 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:21:42,424 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 15:21:52,679 [INFO]: Epoch: 5, Iter: 5500, Loss: 1.5208078622817993
+2024-04-06 15:22:23,785 [INFO]: Epoch: 5, Iter: 5600, Loss: 1.4913573265075684
+2024-04-06 15:22:54,887 [INFO]: Epoch: 5, Iter: 5700, Loss: 1.4179911613464355
+2024-04-06 15:23:26,000 [INFO]: Epoch: 5, Iter: 5800, Loss: 1.3426544666290283
+2024-04-06 15:23:57,075 [INFO]: Epoch: 5, Iter: 5900, Loss: 1.4724557399749756
+2024-04-06 15:24:28,144 [INFO]: Epoch: 5, Iter: 6000, Loss: 1.587128758430481
+2024-04-06 15:24:59,199 [INFO]: Epoch: 5, Iter: 6100, Loss: 1.3241344690322876
+2024-04-06 15:25:30,293 [INFO]: Epoch: 5, Iter: 6200, Loss: 1.3655949831008911
+2024-04-06 15:25:45,204 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:25:45,205 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:25:45,435 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:26:01,622 [INFO]: Epoch: 5, Iter: 6300, Loss: 1.3032617568969727
+2024-04-06 15:26:32,703 [INFO]: Epoch: 5, Iter: 6400, Loss: 1.4313493967056274
+2024-04-06 15:27:03,804 [INFO]: Epoch: 5, Iter: 6500, Loss: 1.4298235177993774
+2024-04-06 15:27:34,870 [INFO]: Epoch: 5, Iter: 6600, Loss: 1.4039413928985596
+2024-04-06 15:28:05,973 [INFO]: Epoch: 5, Iter: 6700, Loss: 1.4263508319854736
+2024-04-06 15:28:37,079 [INFO]: Epoch: 5, Iter: 6800, Loss: 1.5439289808273315
+2024-04-06 15:29:08,155 [INFO]: Epoch: 5, Iter: 6900, Loss: 1.5201574563980103
+2024-04-06 15:29:39,258 [INFO]: Epoch: 5, Iter: 7000, Loss: 1.5238113403320312
+2024-04-06 15:29:48,298 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:29:48,300 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:29:48,560 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:30:10,630 [INFO]: Epoch: 5, Iter: 7100, Loss: 1.5590734481811523
+2024-04-06 15:30:41,696 [INFO]: Epoch: 5, Iter: 7200, Loss: 1.3565690517425537
+2024-04-06 15:31:12,780 [INFO]: Epoch: 5, Iter: 7300, Loss: 1.4326908588409424
+2024-04-06 15:31:43,872 [INFO]: Epoch: 5, Iter: 7400, Loss: 1.4089361429214478
+2024-04-06 15:32:14,952 [INFO]: Epoch: 5, Iter: 7500, Loss: 1.510351538658142
+2024-04-06 15:32:46,031 [INFO]: Epoch: 5, Iter: 7600, Loss: 1.3971920013427734
+2024-04-06 15:33:17,162 [INFO]: Epoch: 5, Iter: 7700, Loss: 1.4120961427688599
+2024-04-06 15:33:48,274 [INFO]: Epoch: 5, Iter: 7800, Loss: 1.474062442779541
+2024-04-06 15:33:51,395 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:33:51,397 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:33:51,632 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:33:52,440 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:33:52,441 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:33:52,666 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:33:53,038 [INFO]: Epoch: 6, Iter: 0, Loss: 1.4029468297958374
+2024-04-06 15:33:53,040 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:33:53,040 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:33:53,255 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:34:24,325 [INFO]: Epoch: 6, Iter: 100, Loss: 1.5189197063446045
+2024-04-06 15:34:55,369 [INFO]: Epoch: 6, Iter: 200, Loss: 1.514926552772522
+2024-04-06 15:35:26,450 [INFO]: Epoch: 6, Iter: 300, Loss: 1.3104381561279297
+2024-04-06 15:35:57,511 [INFO]: Epoch: 6, Iter: 400, Loss: 1.3782705068588257
+2024-04-06 15:36:28,587 [INFO]: Epoch: 6, Iter: 500, Loss: 1.3692011833190918
+2024-04-06 15:36:59,671 [INFO]: Epoch: 6, Iter: 600, Loss: 1.3330577611923218
+2024-04-06 15:37:30,733 [INFO]: Epoch: 6, Iter: 700, Loss: 1.4010968208312988
+2024-04-06 15:37:55,882 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:37:55,884 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:37:56,113 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:38:02,009 [INFO]: Epoch: 6, Iter: 800, Loss: 1.4819363355636597
+2024-04-06 15:38:33,087 [INFO]: Epoch: 6, Iter: 900, Loss: 1.330909252166748
+2024-04-06 15:39:04,170 [INFO]: Epoch: 6, Iter: 1000, Loss: 1.4424409866333008
+2024-04-06 15:39:35,248 [INFO]: Epoch: 6, Iter: 1100, Loss: 1.4391487836837769
+2024-04-06 15:40:06,310 [INFO]: Epoch: 6, Iter: 1200, Loss: 1.476050615310669
+2024-04-06 15:40:37,372 [INFO]: Epoch: 6, Iter: 1300, Loss: 1.4757472276687622
+2024-04-06 15:41:08,413 [INFO]: Epoch: 6, Iter: 1400, Loss: 1.5186995267868042
+2024-04-06 15:41:39,487 [INFO]: Epoch: 6, Iter: 1500, Loss: 1.5342916250228882
+2024-04-06 15:41:58,736 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:41:58,738 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:41:58,960 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 15:42:10,763 [INFO]: Epoch: 6, Iter: 1600, Loss: 1.4118437767028809
+2024-04-06 15:42:41,828 [INFO]: Epoch: 6, Iter: 1700, Loss: 1.284304141998291
+2024-04-06 15:43:12,891 [INFO]: Epoch: 6, Iter: 1800, Loss: 1.4793797731399536
+2024-04-06 15:43:43,933 [INFO]: Epoch: 6, Iter: 1900, Loss: 1.4446022510528564
+2024-04-06 15:44:14,980 [INFO]: Epoch: 6, Iter: 2000, Loss: 1.4362592697143555
+2024-04-06 15:44:46,037 [INFO]: Epoch: 6, Iter: 2100, Loss: 1.451637864112854
+2024-04-06 15:45:17,104 [INFO]: Epoch: 6, Iter: 2200, Loss: 1.3410078287124634
+2024-04-06 15:45:48,154 [INFO]: Epoch: 6, Iter: 2300, Loss: 1.312159776687622
+2024-04-06 15:46:01,502 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:46:01,504 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:46:01,726 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:46:19,414 [INFO]: Epoch: 6, Iter: 2400, Loss: 1.3846790790557861
+2024-04-06 15:46:50,460 [INFO]: Epoch: 6, Iter: 2500, Loss: 1.432273507118225
+2024-04-06 15:47:21,530 [INFO]: Epoch: 6, Iter: 2600, Loss: 1.4402830600738525
+2024-04-06 15:47:52,623 [INFO]: Epoch: 6, Iter: 2700, Loss: 1.4692555665969849
+2024-04-06 15:48:23,714 [INFO]: Epoch: 6, Iter: 2800, Loss: 1.342510461807251
+2024-04-06 15:48:54,802 [INFO]: Epoch: 6, Iter: 2900, Loss: 1.2842527627944946
+2024-04-06 15:49:25,879 [INFO]: Epoch: 6, Iter: 3000, Loss: 1.3203836679458618
+2024-04-06 15:49:56,935 [INFO]: Epoch: 6, Iter: 3100, Loss: 1.4209933280944824
+2024-04-06 15:50:04,384 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:50:04,386 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:50:04,604 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 15:50:28,176 [INFO]: Epoch: 6, Iter: 3200, Loss: 1.3766149282455444
+2024-04-06 15:50:59,251 [INFO]: Epoch: 6, Iter: 3300, Loss: 1.3922244310379028
+2024-04-06 15:51:30,332 [INFO]: Epoch: 6, Iter: 3400, Loss: 1.4176058769226074
+2024-04-06 15:52:01,398 [INFO]: Epoch: 6, Iter: 3500, Loss: 1.3492203950881958
+2024-04-06 15:52:32,473 [INFO]: Epoch: 6, Iter: 3600, Loss: 1.4030438661575317
+2024-04-06 15:53:03,552 [INFO]: Epoch: 6, Iter: 3700, Loss: 1.4325668811798096
+2024-04-06 15:53:34,616 [INFO]: Epoch: 6, Iter: 3800, Loss: 1.4052283763885498
+2024-04-06 15:54:05,674 [INFO]: Epoch: 6, Iter: 3900, Loss: 1.4727139472961426
+2024-04-06 15:54:07,227 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 15:54:07,229 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 15:54:07,458 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 15:54:36,951 [INFO]: Epoch: 6, Iter: 4000, Loss: 1.316804051399231
+2024-04-06 15:55:08,016 [INFO]: Epoch: 6, Iter: 4100, Loss: 1.3027122020721436
+2024-04-06 15:55:39,087 [INFO]: Epoch: 6, Iter: 4200, Loss: 1.4156243801116943
+2024-04-06 15:56:10,115 [INFO]: Epoch: 6, Iter: 4300, Loss: 1.2644563913345337
+2024-04-06 15:56:41,146 [INFO]: Epoch: 6, Iter: 4400, Loss: 1.3776683807373047
+2024-04-06 15:57:12,189 [INFO]: Epoch: 6, Iter: 4500, Loss: 1.3201137781143188
+2024-04-06 16:06:49,730 [INFO]: Start Testing...
+2024-04-06 16:06:54,932 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 16:06:54,933 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 16:06:55,167 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 16:07:45,757 [INFO]: Start Testing...
+2024-04-06 16:07:50,758 [INFO]: Test translate, input: Slowly and not without struggle, America began to listen.
+2024-04-06 16:07:50,759 [INFO]: src.encode: tensor([   2,   82, 1340,   75,   59,   35,  198,   95,  246,   70,  264,  893,
+          42, 1345, 1109, 1333,   65,  780,   39,   49,  122,   16, 1353,    3],
+       device='cuda:0')
+2024-04-06 16:07:51,062 [INFO]: Output: 慢慢地和不挣扎,美国开始听听。
+2024-04-06 16:08:41,154 [INFO]: Start Testing...
+2024-04-06 16:08:46,087 [INFO]: Test translate, input: Miaoxiang son know the devil tricks, white three quick deployment.
+2024-04-06 16:08:46,088 [INFO]: src.encode: tensor([   2,  106,  314, 1334, 1370, 1335,  245,   11,    9,  635,   10,  108,
+        1354,   53,  374,   37,  369, 1345,  112,  359,  852,  327,  520,  108,
+         273,  634,  102, 1353,    3], device='cuda:0')
+2024-04-06 16:08:46,608 [INFO]: Output: 小溪儿子知道了魔鬼的魔鬼,白三个快就业。
+2024-04-06 16:11:00,507 [INFO]: Start training...
+2024-04-06 16:17:36,711 [INFO]: Start training...
+2024-04-06 16:23:15,430 [INFO]: Start training...
+2024-04-06 16:25:44,612 [INFO]: Start training...
+2024-04-06 16:27:28,472 [INFO]: Epoch: 6, Iter: 0, Loss: 1.3316211700439453
+2024-04-06 16:27:28,473 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:27:28,474 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:27:28,938 [INFO]: Output: 他打电话给绿书,他写的书《新福音》,“新福音。
+2024-04-06 16:27:59,292 [INFO]: Epoch: 6, Iter: 100, Loss: 1.345502495765686
+2024-04-06 16:28:29,987 [INFO]: Epoch: 6, Iter: 200, Loss: 1.257311463356018
+2024-04-06 16:29:00,767 [INFO]: Epoch: 6, Iter: 300, Loss: 1.4570860862731934
+2024-04-06 16:29:31,648 [INFO]: Epoch: 6, Iter: 400, Loss: 1.4446824789047241
+2024-04-06 16:30:02,498 [INFO]: Epoch: 6, Iter: 500, Loss: 1.5163145065307617
+2024-04-06 16:30:33,376 [INFO]: Epoch: 6, Iter: 600, Loss: 1.3874478340148926
+2024-04-06 16:31:04,293 [INFO]: Epoch: 6, Iter: 700, Loss: 1.4227906465530396
+2024-04-06 16:31:29,408 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:31:29,410 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:31:29,920 [INFO]: Output: 他打电话给格林书,他的书《新福音》,他说:“新福音。
+2024-04-06 16:31:35,799 [INFO]: Epoch: 6, Iter: 800, Loss: 1.3824399709701538
+2024-04-06 16:32:06,788 [INFO]: Epoch: 6, Iter: 900, Loss: 1.4999363422393799
+2024-04-06 16:32:37,793 [INFO]: Epoch: 6, Iter: 1000, Loss: 1.2906492948532104
+2024-04-06 16:33:08,775 [INFO]: Epoch: 6, Iter: 1100, Loss: 1.3906978368759155
+2024-04-06 16:33:39,864 [INFO]: Epoch: 6, Iter: 1200, Loss: 1.3651878833770752
+2024-04-06 16:34:10,908 [INFO]: Epoch: 6, Iter: 1300, Loss: 1.3591216802597046
+2024-04-06 16:34:42,019 [INFO]: Epoch: 6, Iter: 1400, Loss: 1.359189510345459
+2024-04-06 16:35:13,075 [INFO]: Epoch: 6, Iter: 1500, Loss: 1.3403633832931519
+2024-04-06 16:35:32,337 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:35:32,339 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:35:32,708 [INFO]: Output: 他打电话给格林书,他的教学书《新福音》。
+2024-04-06 16:35:44,499 [INFO]: Epoch: 6, Iter: 1600, Loss: 1.3574596643447876
+2024-04-06 16:36:15,531 [INFO]: Epoch: 6, Iter: 1700, Loss: 1.4107311964035034
+2024-04-06 16:36:46,578 [INFO]: Epoch: 6, Iter: 1800, Loss: 1.4239599704742432
+2024-04-06 16:37:17,615 [INFO]: Epoch: 6, Iter: 1900, Loss: 1.4258806705474854
+2024-04-06 16:37:48,751 [INFO]: Epoch: 6, Iter: 2000, Loss: 1.2948323488235474
+2024-04-06 16:38:19,880 [INFO]: Epoch: 6, Iter: 2100, Loss: 1.2801523208618164
+2024-04-06 16:38:50,956 [INFO]: Epoch: 6, Iter: 2200, Loss: 1.5622965097427368
+2024-04-06 16:39:22,024 [INFO]: Epoch: 6, Iter: 2300, Loss: 1.4023231267929077
+2024-04-06 16:39:35,386 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:39:35,388 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:39:35,794 [INFO]: Output: 他打电话给格林书,他的教学书《新福音》。
+2024-04-06 16:39:53,493 [INFO]: Epoch: 6, Iter: 2400, Loss: 1.3998262882232666
+2024-04-06 16:40:24,558 [INFO]: Epoch: 6, Iter: 2500, Loss: 1.3591883182525635
+2024-04-06 16:40:55,588 [INFO]: Epoch: 6, Iter: 2600, Loss: 1.393391489982605
+2024-04-06 16:41:26,647 [INFO]: Epoch: 6, Iter: 2700, Loss: 1.3652526140213013
+2024-04-06 16:41:57,683 [INFO]: Epoch: 6, Iter: 2800, Loss: 1.3433979749679565
+2024-04-06 16:42:28,737 [INFO]: Epoch: 6, Iter: 2900, Loss: 1.3475549221038818
+2024-04-06 16:42:59,809 [INFO]: Epoch: 6, Iter: 3000, Loss: 1.3737164735794067
+2024-04-06 16:43:30,849 [INFO]: Epoch: 6, Iter: 3100, Loss: 1.3691089153289795
+2024-04-06 16:43:38,311 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:43:38,313 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:43:38,781 [INFO]: Output: 他要打电话给格林书,他的书《新福音》,新福音。
+2024-04-06 16:44:02,426 [INFO]: Epoch: 6, Iter: 3200, Loss: 1.4062371253967285
+2024-04-06 16:44:33,496 [INFO]: Epoch: 6, Iter: 3300, Loss: 1.4254350662231445
+2024-04-06 16:45:04,596 [INFO]: Epoch: 6, Iter: 3400, Loss: 1.3155312538146973
+2024-04-06 16:45:35,659 [INFO]: Epoch: 6, Iter: 3500, Loss: 1.5509514808654785
+2024-04-06 16:46:06,741 [INFO]: Epoch: 6, Iter: 3600, Loss: 1.3463231325149536
+2024-04-06 16:46:37,903 [INFO]: Epoch: 6, Iter: 3700, Loss: 1.450331449508667
+2024-04-06 16:47:09,084 [INFO]: Epoch: 6, Iter: 3800, Loss: 1.3479998111724854
+2024-04-06 16:47:40,179 [INFO]: Epoch: 6, Iter: 3900, Loss: 1.265165090560913
+2024-04-06 16:47:41,739 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:47:41,742 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:47:42,111 [INFO]: Output: 他打电话给格林书,他的书《新福音》。
+2024-04-06 16:48:11,695 [INFO]: Epoch: 6, Iter: 4000, Loss: 1.3254618644714355
+2024-04-06 16:48:42,803 [INFO]: Epoch: 6, Iter: 4100, Loss: 1.3190240859985352
+2024-04-06 16:49:13,954 [INFO]: Epoch: 6, Iter: 4200, Loss: 1.3715176582336426
+2024-04-06 16:49:45,033 [INFO]: Epoch: 6, Iter: 4300, Loss: 1.4805822372436523
+2024-04-06 16:50:16,112 [INFO]: Epoch: 6, Iter: 4400, Loss: 1.443748116493225
+2024-04-06 16:50:47,340 [INFO]: Epoch: 6, Iter: 4500, Loss: 1.3950285911560059
+2024-04-06 16:51:18,473 [INFO]: Epoch: 6, Iter: 4600, Loss: 1.4357221126556396
+2024-04-06 16:51:45,219 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:51:45,222 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:51:45,599 [INFO]: Output: 他打电话给绿书,他的教书《新福音》。
+2024-04-06 16:51:49,934 [INFO]: Epoch: 6, Iter: 4700, Loss: 1.330944299697876
+2024-04-06 16:52:21,074 [INFO]: Epoch: 6, Iter: 4800, Loss: 1.528828740119934
+2024-04-06 16:52:52,217 [INFO]: Epoch: 6, Iter: 4900, Loss: 1.5151084661483765
+2024-04-06 16:53:23,376 [INFO]: Epoch: 6, Iter: 5000, Loss: 1.390749216079712
+2024-04-06 16:53:54,496 [INFO]: Epoch: 6, Iter: 5100, Loss: 1.4148895740509033
+2024-04-06 16:54:25,619 [INFO]: Epoch: 6, Iter: 5200, Loss: 1.4571365118026733
+2024-04-06 16:54:56,834 [INFO]: Epoch: 6, Iter: 5300, Loss: 1.3700698614120483
+2024-04-06 16:55:27,962 [INFO]: Epoch: 6, Iter: 5400, Loss: 1.388466238975525
+2024-04-06 16:55:48,826 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 16:55:48,830 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 16:55:49,367 [INFO]: Output: 他的教书《新福音》,他叫绿色书,他是“新福音”。
+2024-04-06 16:55:59,642 [INFO]: Epoch: 6, Iter: 5500, Loss: 1.3097031116485596
+2024-04-06 17:01:16,227 [INFO]: Epoch: 6, Iter: 5600, Loss: 1.3490408658981323
+2024-04-06 17:01:46,804 [INFO]: Epoch: 6, Iter: 5700, Loss: 1.3091821670532227
+2024-04-06 17:02:17,548 [INFO]: Epoch: 6, Iter: 5800, Loss: 1.4117403030395508
+2024-04-06 17:02:48,344 [INFO]: Epoch: 6, Iter: 5900, Loss: 1.4333304166793823
+2024-04-06 17:03:19,108 [INFO]: Epoch: 6, Iter: 6000, Loss: 1.455277442932129
+2024-04-06 17:03:49,935 [INFO]: Epoch: 6, Iter: 6100, Loss: 1.4190336465835571
+2024-04-06 17:04:20,817 [INFO]: Epoch: 6, Iter: 6200, Loss: 1.4356085062026978
+2024-04-06 17:04:35,658 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:04:35,660 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:04:36,028 [INFO]: Output: 他的书《新福音》是《新福音》的书。
+2024-04-06 17:04:52,133 [INFO]: Epoch: 6, Iter: 6300, Loss: 1.3766860961914062
+2024-04-06 17:05:23,086 [INFO]: Epoch: 6, Iter: 6400, Loss: 1.4828368425369263
+2024-04-06 17:05:54,040 [INFO]: Epoch: 6, Iter: 6500, Loss: 1.3944222927093506
+2024-04-06 17:06:25,026 [INFO]: Epoch: 6, Iter: 6600, Loss: 1.3732924461364746
+2024-04-06 17:06:56,042 [INFO]: Epoch: 6, Iter: 6700, Loss: 1.3482085466384888
+2024-04-06 17:07:27,014 [INFO]: Epoch: 6, Iter: 6800, Loss: 1.2706063985824585
+2024-04-06 17:07:58,070 [INFO]: Epoch: 6, Iter: 6900, Loss: 1.412560224533081
+2024-04-06 17:08:29,119 [INFO]: Epoch: 6, Iter: 7000, Loss: 1.2814178466796875
+2024-04-06 17:08:38,117 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:08:38,120 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:08:38,521 [INFO]: Output: 他打电话给格林书,他的教书《新福音》。
+2024-04-06 17:09:00,569 [INFO]: Epoch: 6, Iter: 7100, Loss: 1.3481305837631226
+2024-04-06 17:09:31,665 [INFO]: Epoch: 6, Iter: 7200, Loss: 1.3913999795913696
+2024-04-06 17:10:02,725 [INFO]: Epoch: 6, Iter: 7300, Loss: 1.465390682220459
+2024-04-06 17:10:33,771 [INFO]: Epoch: 6, Iter: 7400, Loss: 1.3845235109329224
+2024-04-06 17:11:04,829 [INFO]: Epoch: 6, Iter: 7500, Loss: 1.3055799007415771
+2024-04-06 17:11:35,880 [INFO]: Epoch: 6, Iter: 7600, Loss: 1.3661116361618042
+2024-04-06 17:12:06,946 [INFO]: Epoch: 6, Iter: 7700, Loss: 1.4324021339416504
+2024-04-06 17:12:38,006 [INFO]: Epoch: 6, Iter: 7800, Loss: 1.3388092517852783
+2024-04-06 17:12:41,112 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:12:41,114 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:12:41,469 [INFO]: Output: 他打电话给绿书,他书《新福音》。
+2024-04-06 17:12:42,313 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 17:12:42,314 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 17:12:42,555 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 17:12:42,918 [INFO]: Epoch: 7, Iter: 0, Loss: 1.4136909246444702
+2024-04-06 17:12:42,920 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:12:42,921 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:12:43,272 [INFO]: Output: 他打电话给绿书,他书《新福音》。
+2024-04-06 17:13:14,355 [INFO]: Epoch: 7, Iter: 100, Loss: 1.3443036079406738
+2024-04-06 17:13:45,425 [INFO]: Epoch: 7, Iter: 200, Loss: 1.2467190027236938
+2024-04-06 17:14:16,515 [INFO]: Epoch: 7, Iter: 300, Loss: 1.3811182975769043
+2024-04-06 17:14:47,557 [INFO]: Epoch: 7, Iter: 400, Loss: 1.4101741313934326
+2024-04-06 17:15:18,594 [INFO]: Epoch: 7, Iter: 500, Loss: 1.2995730638504028
+2024-04-06 17:15:49,648 [INFO]: Epoch: 7, Iter: 600, Loss: 1.4858107566833496
+2024-04-06 17:16:20,690 [INFO]: Epoch: 7, Iter: 700, Loss: 1.3837215900421143
+2024-04-06 17:16:45,867 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:16:45,870 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:16:46,271 [INFO]: Output: 他打电话给绿色书,他的教书《新福音》。
+2024-04-06 17:16:52,180 [INFO]: Epoch: 7, Iter: 800, Loss: 1.455858826637268
+2024-04-06 17:17:23,326 [INFO]: Epoch: 7, Iter: 900, Loss: 1.439068078994751
+2024-04-06 17:17:54,531 [INFO]: Epoch: 7, Iter: 1000, Loss: 1.392307996749878
+2024-04-06 17:18:25,651 [INFO]: Epoch: 7, Iter: 1100, Loss: 1.363506555557251
+2024-04-06 17:18:56,703 [INFO]: Epoch: 7, Iter: 1200, Loss: 1.3853394985198975
+2024-04-06 17:19:27,821 [INFO]: Epoch: 7, Iter: 1300, Loss: 1.3495738506317139
+2024-04-06 17:19:58,896 [INFO]: Epoch: 7, Iter: 1400, Loss: 1.3988094329833984
+2024-04-06 17:20:30,032 [INFO]: Epoch: 7, Iter: 1500, Loss: 1.3997845649719238
+2024-04-06 17:20:49,321 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:20:49,324 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:20:49,776 [INFO]: Output: 他打电话给绿色书,他的教学书《新福音》。
+2024-04-06 17:21:01,610 [INFO]: Epoch: 7, Iter: 1600, Loss: 1.3110822439193726
+2024-04-06 17:21:32,729 [INFO]: Epoch: 7, Iter: 1700, Loss: 1.363740086555481
+2024-04-06 17:22:03,893 [INFO]: Epoch: 7, Iter: 1800, Loss: 1.3625891208648682
+2024-04-06 17:22:34,979 [INFO]: Epoch: 7, Iter: 1900, Loss: 1.3962799310684204
+2024-04-06 17:23:06,039 [INFO]: Epoch: 7, Iter: 2000, Loss: 1.4569655656814575
+2024-04-06 17:23:37,103 [INFO]: Epoch: 7, Iter: 2100, Loss: 1.415229082107544
+2024-04-06 17:24:08,253 [INFO]: Epoch: 7, Iter: 2200, Loss: 1.297865867614746
+2024-04-06 17:24:39,330 [INFO]: Epoch: 7, Iter: 2300, Loss: 1.383592128753662
+2024-04-06 17:24:52,693 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:24:52,695 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:24:53,065 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 17:25:10,807 [INFO]: Epoch: 7, Iter: 2400, Loss: 1.3888978958129883
+2024-04-06 17:25:41,913 [INFO]: Epoch: 7, Iter: 2500, Loss: 1.3499269485473633
+2024-04-06 17:26:12,995 [INFO]: Epoch: 7, Iter: 2600, Loss: 1.4266371726989746
+2024-04-06 17:26:44,065 [INFO]: Epoch: 7, Iter: 2700, Loss: 1.3805437088012695
+2024-04-06 17:27:15,162 [INFO]: Epoch: 7, Iter: 2800, Loss: 1.3227169513702393
+2024-04-06 17:27:46,239 [INFO]: Epoch: 7, Iter: 2900, Loss: 1.404449224472046
+2024-04-06 17:28:17,315 [INFO]: Epoch: 7, Iter: 3000, Loss: 1.33795166015625
+2024-04-06 17:28:48,459 [INFO]: Epoch: 7, Iter: 3100, Loss: 1.449823260307312
+2024-04-06 17:28:55,920 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:28:55,923 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:28:56,331 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 17:29:19,938 [INFO]: Epoch: 7, Iter: 3200, Loss: 1.3571697473526
+2024-04-06 17:29:51,042 [INFO]: Epoch: 7, Iter: 3300, Loss: 1.4658628702163696
+2024-04-06 17:30:22,138 [INFO]: Epoch: 7, Iter: 3400, Loss: 1.3574579954147339
+2024-04-06 17:30:53,256 [INFO]: Epoch: 7, Iter: 3500, Loss: 1.414406418800354
+2024-04-06 17:31:24,353 [INFO]: Epoch: 7, Iter: 3600, Loss: 1.337088942527771
+2024-04-06 17:31:55,468 [INFO]: Epoch: 7, Iter: 3700, Loss: 1.420793056488037
+2024-04-06 17:32:26,681 [INFO]: Epoch: 7, Iter: 3800, Loss: 1.3288394212722778
+2024-04-06 17:32:57,826 [INFO]: Epoch: 7, Iter: 3900, Loss: 1.2890514135360718
+2024-04-06 17:32:59,383 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:32:59,386 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:32:59,767 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 17:33:29,343 [INFO]: Epoch: 7, Iter: 4000, Loss: 1.2940988540649414
+2024-04-06 17:34:00,477 [INFO]: Epoch: 7, Iter: 4100, Loss: 1.4788198471069336
+2024-04-06 17:34:31,606 [INFO]: Epoch: 7, Iter: 4200, Loss: 1.497693419456482
+2024-04-06 17:35:02,745 [INFO]: Epoch: 7, Iter: 4300, Loss: 1.3391920328140259
+2024-04-06 17:35:34,065 [INFO]: Epoch: 7, Iter: 4400, Loss: 1.3480693101882935
+2024-04-06 17:36:05,174 [INFO]: Epoch: 7, Iter: 4500, Loss: 1.3400418758392334
+2024-04-06 17:36:36,320 [INFO]: Epoch: 7, Iter: 4600, Loss: 1.3571630716323853
+2024-04-06 17:37:03,080 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:37:03,082 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:37:03,482 [INFO]: Output: 他打电话给绿书,他的教学书《新福音》。
+2024-04-06 17:37:07,837 [INFO]: Epoch: 7, Iter: 4700, Loss: 1.3219707012176514
+2024-04-06 17:37:38,940 [INFO]: Epoch: 7, Iter: 4800, Loss: 1.4316966533660889
+2024-04-06 17:38:10,084 [INFO]: Epoch: 7, Iter: 4900, Loss: 1.279815435409546
+2024-04-06 17:38:41,247 [INFO]: Epoch: 7, Iter: 5000, Loss: 1.3697553873062134
+2024-04-06 17:39:12,387 [INFO]: Epoch: 7, Iter: 5100, Loss: 1.3845248222351074
+2024-04-06 17:39:43,590 [INFO]: Epoch: 7, Iter: 5200, Loss: 1.270764946937561
+2024-04-06 17:40:14,731 [INFO]: Epoch: 7, Iter: 5300, Loss: 1.4285781383514404
+2024-04-06 17:40:45,864 [INFO]: Epoch: 7, Iter: 5400, Loss: 1.3259875774383545
+2024-04-06 17:41:06,721 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:41:06,723 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:41:07,099 [INFO]: Output: 他把绿书叫做绿书,他的教书“新福音”。
+2024-04-06 17:41:17,391 [INFO]: Epoch: 7, Iter: 5500, Loss: 1.2725943326950073
+2024-04-06 17:41:48,542 [INFO]: Epoch: 7, Iter: 5600, Loss: 1.3250330686569214
+2024-04-06 17:42:19,640 [INFO]: Epoch: 7, Iter: 5700, Loss: 1.332977533340454
+2024-04-06 17:42:50,794 [INFO]: Epoch: 7, Iter: 5800, Loss: 1.356924295425415
+2024-04-06 17:43:21,920 [INFO]: Epoch: 7, Iter: 5900, Loss: 1.3009158372879028
+2024-04-06 17:43:53,078 [INFO]: Epoch: 7, Iter: 6000, Loss: 1.4736398458480835
+2024-04-06 17:44:24,204 [INFO]: Epoch: 7, Iter: 6100, Loss: 1.3681614398956299
+2024-04-06 17:44:55,358 [INFO]: Epoch: 7, Iter: 6200, Loss: 1.4254050254821777
+2024-04-06 17:45:10,298 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:45:10,301 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:45:10,783 [INFO]: Output: 他打电话给绿书,他的书《新福音》,他是新福音。
+2024-04-06 17:45:26,965 [INFO]: Epoch: 7, Iter: 6300, Loss: 1.3919390439987183
+2024-04-06 17:45:58,074 [INFO]: Epoch: 7, Iter: 6400, Loss: 1.4074807167053223
+2024-04-06 17:46:29,272 [INFO]: Epoch: 7, Iter: 6500, Loss: 1.3004786968231201
+2024-04-06 17:47:00,528 [INFO]: Epoch: 7, Iter: 6600, Loss: 1.384273648262024
+2024-04-06 17:47:31,641 [INFO]: Epoch: 7, Iter: 6700, Loss: 1.3460193872451782
+2024-04-06 17:48:02,729 [INFO]: Epoch: 7, Iter: 6800, Loss: 1.3353182077407837
+2024-04-06 17:48:33,981 [INFO]: Epoch: 7, Iter: 6900, Loss: 1.3749605417251587
+2024-04-06 17:49:05,143 [INFO]: Epoch: 7, Iter: 7000, Loss: 1.4086207151412964
+2024-04-06 17:49:14,161 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:49:14,163 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:49:14,525 [INFO]: Output: 他叫做绿色书,他的教导书《新福音》。
+2024-04-06 17:49:36,608 [INFO]: Epoch: 7, Iter: 7100, Loss: 1.3846004009246826
+2024-04-06 17:50:07,801 [INFO]: Epoch: 7, Iter: 7200, Loss: 1.3686443567276
+2024-04-06 17:50:38,977 [INFO]: Epoch: 7, Iter: 7300, Loss: 1.3413126468658447
+2024-04-06 17:51:10,107 [INFO]: Epoch: 7, Iter: 7400, Loss: 1.240686297416687
+2024-04-06 17:51:41,244 [INFO]: Epoch: 7, Iter: 7500, Loss: 1.308901071548462
+2024-04-06 17:52:12,382 [INFO]: Epoch: 7, Iter: 7600, Loss: 1.4239264726638794
+2024-04-06 17:52:43,505 [INFO]: Epoch: 7, Iter: 7700, Loss: 1.523280143737793
+2024-04-06 17:53:14,602 [INFO]: Epoch: 7, Iter: 7800, Loss: 1.2985960245132446
+2024-04-06 17:53:17,713 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:53:17,715 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:53:18,090 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 17:53:18,909 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 17:53:18,910 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 17:53:19,178 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 17:53:19,546 [INFO]: Epoch: 8, Iter: 0, Loss: 1.3432118892669678
+2024-04-06 17:53:19,548 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:53:19,549 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:53:19,918 [INFO]: Output: 他打电话给绿书,他的教书“新福音”。
+2024-04-06 17:53:50,971 [INFO]: Epoch: 8, Iter: 100, Loss: 1.3066155910491943
+2024-04-06 17:54:21,990 [INFO]: Epoch: 8, Iter: 200, Loss: 1.2705256938934326
+2024-04-06 17:54:53,084 [INFO]: Epoch: 8, Iter: 300, Loss: 1.3569551706314087
+2024-04-06 17:55:24,155 [INFO]: Epoch: 8, Iter: 400, Loss: 1.3989180326461792
+2024-04-06 17:55:55,294 [INFO]: Epoch: 8, Iter: 500, Loss: 1.2287781238555908
+2024-04-06 17:56:26,499 [INFO]: Epoch: 8, Iter: 600, Loss: 1.3003464937210083
+2024-04-06 17:56:57,674 [INFO]: Epoch: 8, Iter: 700, Loss: 1.3198926448822021
+2024-04-06 17:57:22,997 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 17:57:23,001 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 17:57:23,426 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 17:57:29,349 [INFO]: Epoch: 8, Iter: 800, Loss: 1.2532984018325806
+2024-04-06 17:58:00,563 [INFO]: Epoch: 8, Iter: 900, Loss: 1.4223196506500244
+2024-04-06 17:58:31,784 [INFO]: Epoch: 8, Iter: 1000, Loss: 1.3812758922576904
+2024-04-06 17:59:02,990 [INFO]: Epoch: 8, Iter: 1100, Loss: 1.4273700714111328
+2024-04-06 17:59:34,281 [INFO]: Epoch: 8, Iter: 1200, Loss: 1.400895357131958
+2024-04-06 18:00:05,483 [INFO]: Epoch: 8, Iter: 1300, Loss: 1.2528384923934937
+2024-04-06 18:00:36,659 [INFO]: Epoch: 8, Iter: 1400, Loss: 1.3233040571212769
+2024-04-06 18:01:07,828 [INFO]: Epoch: 8, Iter: 1500, Loss: 1.4649184942245483
+2024-04-06 18:01:27,201 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:01:27,204 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:01:27,603 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 18:01:39,437 [INFO]: Epoch: 8, Iter: 1600, Loss: 1.144322156906128
+2024-04-06 18:02:10,614 [INFO]: Epoch: 8, Iter: 1700, Loss: 1.434460163116455
+2024-04-06 18:02:41,751 [INFO]: Epoch: 8, Iter: 1800, Loss: 1.3775043487548828
+2024-04-06 18:03:12,967 [INFO]: Epoch: 8, Iter: 1900, Loss: 1.2527048587799072
+2024-04-06 18:03:44,116 [INFO]: Epoch: 8, Iter: 2000, Loss: 1.255324363708496
+2024-04-06 18:04:15,281 [INFO]: Epoch: 8, Iter: 2100, Loss: 1.2223020792007446
+2024-04-06 18:04:46,400 [INFO]: Epoch: 8, Iter: 2200, Loss: 1.2634912729263306
+2024-04-06 18:05:17,636 [INFO]: Epoch: 8, Iter: 2300, Loss: 1.3314530849456787
+2024-04-06 18:05:31,043 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:05:31,046 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:05:31,414 [INFO]: Output: 他叫做绿书,他的教导书《新福音》。
+2024-04-06 18:05:49,178 [INFO]: Epoch: 8, Iter: 2400, Loss: 1.4311109781265259
+2024-04-06 18:06:20,348 [INFO]: Epoch: 8, Iter: 2500, Loss: 1.3276346921920776
+2024-04-06 18:06:51,534 [INFO]: Epoch: 8, Iter: 2600, Loss: 1.371802568435669
+2024-04-06 18:07:22,693 [INFO]: Epoch: 8, Iter: 2700, Loss: 1.3185558319091797
+2024-04-06 18:07:53,940 [INFO]: Epoch: 8, Iter: 2800, Loss: 1.3094180822372437
+2024-04-06 18:08:25,122 [INFO]: Epoch: 8, Iter: 2900, Loss: 1.3242791891098022
+2024-04-06 18:08:56,272 [INFO]: Epoch: 8, Iter: 3000, Loss: 1.4087468385696411
+2024-04-06 18:09:27,389 [INFO]: Epoch: 8, Iter: 3100, Loss: 1.4680434465408325
+2024-04-06 18:09:34,865 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:09:34,868 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:09:35,292 [INFO]: Output: 他把《绿书》称为“新福音”,“新福音”。
+2024-04-06 18:09:58,972 [INFO]: Epoch: 8, Iter: 3200, Loss: 1.346327781677246
+2024-04-06 18:10:30,103 [INFO]: Epoch: 8, Iter: 3300, Loss: 1.2607054710388184
+2024-04-06 18:11:01,313 [INFO]: Epoch: 8, Iter: 3400, Loss: 1.4228026866912842
+2024-04-06 18:11:32,444 [INFO]: Epoch: 8, Iter: 3500, Loss: 1.2799924612045288
+2024-04-06 18:12:03,554 [INFO]: Epoch: 8, Iter: 3600, Loss: 1.3121522665023804
+2024-04-06 18:12:34,664 [INFO]: Epoch: 8, Iter: 3700, Loss: 1.2766013145446777
+2024-04-06 18:13:05,784 [INFO]: Epoch: 8, Iter: 3800, Loss: 1.37232506275177
+2024-04-06 18:13:36,929 [INFO]: Epoch: 8, Iter: 3900, Loss: 1.3587942123413086
+2024-04-06 18:13:38,485 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:13:38,488 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:13:38,855 [INFO]: Output: 他叫做格林书,他的教书《新福音》。
+2024-04-06 18:14:08,455 [INFO]: Epoch: 8, Iter: 4000, Loss: 1.337377667427063
+2024-04-06 18:14:39,580 [INFO]: Epoch: 8, Iter: 4100, Loss: 1.408309817314148
+2024-04-06 18:15:10,726 [INFO]: Epoch: 8, Iter: 4200, Loss: 1.419407844543457
+2024-04-06 18:15:41,869 [INFO]: Epoch: 8, Iter: 4300, Loss: 1.320971131324768
+2024-04-06 18:16:12,963 [INFO]: Epoch: 8, Iter: 4400, Loss: 1.2911759614944458
+2024-04-06 18:16:44,115 [INFO]: Epoch: 8, Iter: 4500, Loss: 1.3421335220336914
+2024-04-06 18:17:15,249 [INFO]: Epoch: 8, Iter: 4600, Loss: 1.2980856895446777
+2024-04-06 18:17:42,023 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:17:42,026 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:17:42,378 [INFO]: Output: 他叫《绿书》,他的教书,“新福音”。
+2024-04-06 18:17:46,738 [INFO]: Epoch: 8, Iter: 4700, Loss: 1.4107657670974731
+2024-04-06 18:18:17,837 [INFO]: Epoch: 8, Iter: 4800, Loss: 1.3519316911697388
+2024-04-06 18:18:48,968 [INFO]: Epoch: 8, Iter: 4900, Loss: 1.413669228553772
+2024-04-06 18:19:20,078 [INFO]: Epoch: 8, Iter: 5000, Loss: 1.4021059274673462
+2024-04-06 18:19:51,190 [INFO]: Epoch: 8, Iter: 5100, Loss: 1.4117745161056519
+2024-04-06 18:20:22,375 [INFO]: Epoch: 8, Iter: 5200, Loss: 1.1767034530639648
+2024-04-06 18:20:53,463 [INFO]: Epoch: 8, Iter: 5300, Loss: 1.2637187242507935
+2024-04-06 18:21:24,675 [INFO]: Epoch: 8, Iter: 5400, Loss: 1.4648582935333252
+2024-04-06 18:21:45,556 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:21:45,559 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:21:46,167 [INFO]: Output: 他把《绿书》称为“新福音”的新书,他把它称为“新福音”。
+2024-04-06 18:21:56,427 [INFO]: Epoch: 8, Iter: 5500, Loss: 1.259499192237854
+2024-04-06 18:22:27,564 [INFO]: Epoch: 8, Iter: 5600, Loss: 1.403534173965454
+2024-04-06 18:22:58,679 [INFO]: Epoch: 8, Iter: 5700, Loss: 1.2622017860412598
+2024-04-06 18:23:29,775 [INFO]: Epoch: 8, Iter: 5800, Loss: 1.3152881860733032
+2024-04-06 18:24:00,895 [INFO]: Epoch: 8, Iter: 5900, Loss: 1.33594810962677
+2024-04-06 18:24:32,055 [INFO]: Epoch: 8, Iter: 6000, Loss: 1.283172607421875
+2024-04-06 18:25:03,175 [INFO]: Epoch: 8, Iter: 6100, Loss: 1.3919754028320312
+2024-04-06 18:25:34,382 [INFO]: Epoch: 8, Iter: 6200, Loss: 1.4259095191955566
+2024-04-06 18:25:49,331 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:25:49,334 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:25:49,688 [INFO]: Output: 他把绿书称作“新福音”的新福音。
+2024-04-06 18:26:05,916 [INFO]: Epoch: 8, Iter: 6300, Loss: 1.3992996215820312
+2024-04-06 18:26:37,079 [INFO]: Epoch: 8, Iter: 6400, Loss: 1.29888916015625
+2024-04-06 18:27:08,249 [INFO]: Epoch: 8, Iter: 6500, Loss: 1.3617552518844604
+2024-04-06 18:27:39,398 [INFO]: Epoch: 8, Iter: 6600, Loss: 1.384286880493164
+2024-04-06 18:28:10,531 [INFO]: Epoch: 8, Iter: 6700, Loss: 1.3584997653961182
+2024-04-06 18:28:41,702 [INFO]: Epoch: 8, Iter: 6800, Loss: 1.3615535497665405
+2024-04-06 18:29:12,819 [INFO]: Epoch: 8, Iter: 6900, Loss: 1.3932850360870361
+2024-04-06 18:29:43,952 [INFO]: Epoch: 8, Iter: 7000, Loss: 1.261131763458252
+2024-04-06 18:29:52,971 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:29:52,974 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:29:53,327 [INFO]: Output: 他叫《绿色书》,他的书《新福音》。
+2024-04-06 18:30:15,448 [INFO]: Epoch: 8, Iter: 7100, Loss: 1.3298540115356445
+2024-04-06 18:30:46,613 [INFO]: Epoch: 8, Iter: 7200, Loss: 1.2296757698059082
+2024-04-06 18:31:17,803 [INFO]: Epoch: 8, Iter: 7300, Loss: 1.3633164167404175
+2024-04-06 18:31:48,971 [INFO]: Epoch: 8, Iter: 7400, Loss: 1.3746675252914429
+2024-04-06 18:32:20,090 [INFO]: Epoch: 8, Iter: 7500, Loss: 1.3625378608703613
+2024-04-06 18:32:51,218 [INFO]: Epoch: 8, Iter: 7600, Loss: 1.4553325176239014
+2024-04-06 18:33:22,350 [INFO]: Epoch: 8, Iter: 7700, Loss: 1.277470588684082
+2024-04-06 18:33:53,524 [INFO]: Epoch: 8, Iter: 7800, Loss: 1.3409558534622192
+2024-04-06 18:33:56,634 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:33:56,637 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:33:56,988 [INFO]: Output: 他把绿色书叫做,他的教书“新福音”。
+2024-04-06 18:33:57,811 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 18:33:57,812 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 18:33:58,058 [INFO]: Output: 我是个学生。我喜欢读书。
+2024-04-06 18:33:58,424 [INFO]: Epoch: 9, Iter: 0, Loss: 1.2709699869155884
+2024-04-06 18:33:58,426 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:33:58,427 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:33:58,780 [INFO]: Output: 他把绿色书叫做,他的教书“新福音”。
+2024-04-06 18:34:29,846 [INFO]: Epoch: 9, Iter: 100, Loss: 1.2188382148742676
+2024-04-06 18:35:00,923 [INFO]: Epoch: 9, Iter: 200, Loss: 1.257232427597046
+2024-04-06 18:35:31,934 [INFO]: Epoch: 9, Iter: 300, Loss: 1.425845742225647
+2024-04-06 18:36:03,053 [INFO]: Epoch: 9, Iter: 400, Loss: 1.189799427986145
+2024-04-06 18:36:34,128 [INFO]: Epoch: 9, Iter: 500, Loss: 1.4094257354736328
+2024-04-06 18:37:05,224 [INFO]: Epoch: 9, Iter: 600, Loss: 1.2841548919677734
+2024-04-06 18:37:36,291 [INFO]: Epoch: 9, Iter: 700, Loss: 1.2000024318695068
+2024-04-06 18:38:01,480 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:38:01,483 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:38:01,939 [INFO]: Output: 他叫做“绿色书”,他书的教书“新福音”。
+2024-04-06 18:38:07,843 [INFO]: Epoch: 9, Iter: 800, Loss: 1.2462143898010254
+2024-04-06 18:38:38,893 [INFO]: Epoch: 9, Iter: 900, Loss: 1.4095897674560547
+2024-04-06 18:39:09,975 [INFO]: Epoch: 9, Iter: 1000, Loss: 1.3838191032409668
+2024-04-06 18:39:41,093 [INFO]: Epoch: 9, Iter: 1100, Loss: 1.1665184497833252
+2024-04-06 18:40:12,349 [INFO]: Epoch: 9, Iter: 1200, Loss: 1.181216835975647
+2024-04-06 18:40:43,466 [INFO]: Epoch: 9, Iter: 1300, Loss: 1.290714144706726
+2024-04-06 18:41:14,601 [INFO]: Epoch: 9, Iter: 1400, Loss: 1.2935032844543457
+2024-04-06 18:41:45,709 [INFO]: Epoch: 9, Iter: 1500, Loss: 1.381270408630371
+2024-04-06 18:42:05,009 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:42:05,012 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:42:05,322 [INFO]: Output: 他叫做格林书,他的书“新福音”。
+2024-04-06 18:42:17,142 [INFO]: Epoch: 9, Iter: 1600, Loss: 1.3158513307571411
+2024-04-06 18:42:48,304 [INFO]: Epoch: 9, Iter: 1700, Loss: 1.3134760856628418
+2024-04-06 18:43:19,401 [INFO]: Epoch: 9, Iter: 1800, Loss: 1.2380621433258057
+2024-04-06 18:43:50,512 [INFO]: Epoch: 9, Iter: 1900, Loss: 1.419981598854065
+2024-04-06 18:44:21,600 [INFO]: Epoch: 9, Iter: 2000, Loss: 1.2503787279129028
+2024-04-06 18:44:52,723 [INFO]: Epoch: 9, Iter: 2100, Loss: 1.2785778045654297
+2024-04-06 18:45:23,909 [INFO]: Epoch: 9, Iter: 2200, Loss: 1.1986141204833984
+2024-04-06 18:45:55,091 [INFO]: Epoch: 9, Iter: 2300, Loss: 1.3144558668136597
+2024-04-06 18:46:08,473 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:46:08,476 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:46:08,933 [INFO]: Output: 他叫《绿书》,他书《新福音》,这是新福音。
+2024-04-06 18:46:26,688 [INFO]: Epoch: 9, Iter: 2400, Loss: 1.3591463565826416
+2024-04-06 18:46:57,809 [INFO]: Epoch: 9, Iter: 2500, Loss: 1.3032734394073486
+2024-04-06 18:47:28,996 [INFO]: Epoch: 9, Iter: 2600, Loss: 1.4020591974258423
+2024-04-06 18:48:00,190 [INFO]: Epoch: 9, Iter: 2700, Loss: 1.3454480171203613
+2024-04-06 18:48:31,318 [INFO]: Epoch: 9, Iter: 2800, Loss: 1.4132338762283325
+2024-04-06 18:49:02,447 [INFO]: Epoch: 9, Iter: 2900, Loss: 1.3513120412826538
+2024-04-06 18:49:33,593 [INFO]: Epoch: 9, Iter: 3000, Loss: 1.2337151765823364
+2024-04-06 18:50:04,720 [INFO]: Epoch: 9, Iter: 3100, Loss: 1.317399263381958
+2024-04-06 18:50:12,179 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:50:12,182 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:50:12,514 [INFO]: Output: 他叫做绿书,他的教书《新福音》。
+2024-04-06 18:50:36,182 [INFO]: Epoch: 9, Iter: 3200, Loss: 1.2841922044754028
+2024-04-06 18:51:07,305 [INFO]: Epoch: 9, Iter: 3300, Loss: 1.4010753631591797
+2024-04-06 18:51:38,458 [INFO]: Epoch: 9, Iter: 3400, Loss: 1.4030487537384033
+2024-04-06 18:52:09,624 [INFO]: Epoch: 9, Iter: 3500, Loss: 1.207309365272522
+2024-04-06 18:52:40,777 [INFO]: Epoch: 9, Iter: 3600, Loss: 1.2714543342590332
+2024-04-06 18:53:11,970 [INFO]: Epoch: 9, Iter: 3700, Loss: 1.4041707515716553
+2024-04-06 18:53:43,165 [INFO]: Epoch: 9, Iter: 3800, Loss: 1.3384978771209717
+2024-04-06 18:54:14,327 [INFO]: Epoch: 9, Iter: 3900, Loss: 1.401633381843567
+2024-04-06 18:54:15,885 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:54:15,888 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:54:16,220 [INFO]: Output: 他叫《绿书》,他教书“新福音”。
+2024-04-06 18:54:45,756 [INFO]: Epoch: 9, Iter: 4000, Loss: 1.3495922088623047
+2024-04-06 18:55:16,942 [INFO]: Epoch: 9, Iter: 4100, Loss: 1.2990676164627075
+2024-04-06 18:55:48,081 [INFO]: Epoch: 9, Iter: 4200, Loss: 1.3709218502044678
+2024-04-06 18:56:19,200 [INFO]: Epoch: 9, Iter: 4300, Loss: 1.4001262187957764
+2024-04-06 18:56:50,322 [INFO]: Epoch: 9, Iter: 4400, Loss: 1.289056658744812
+2024-04-06 18:57:21,420 [INFO]: Epoch: 9, Iter: 4500, Loss: 1.4044842720031738
+2024-04-06 18:57:52,594 [INFO]: Epoch: 9, Iter: 4600, Loss: 1.230950117111206
+2024-04-06 18:58:19,496 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 18:58:19,500 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 18:58:19,924 [INFO]: Output: 他想把绿本书称为“新福音”,“新福音。
+2024-04-06 18:58:24,278 [INFO]: Epoch: 9, Iter: 4700, Loss: 1.2961993217468262
+2024-04-06 18:58:55,392 [INFO]: Epoch: 9, Iter: 4800, Loss: 1.2909505367279053
+2024-04-06 18:59:26,474 [INFO]: Epoch: 9, Iter: 4900, Loss: 1.2971622943878174
+2024-04-06 18:59:57,581 [INFO]: Epoch: 9, Iter: 5000, Loss: 1.3451119661331177
+2024-04-06 19:00:28,364 [INFO]: Epoch: 9, Iter: 5100, Loss: 1.3882440328598022
+2024-04-06 19:00:59,486 [INFO]: Epoch: 9, Iter: 5200, Loss: 1.2600929737091064
+2024-04-06 19:01:30,620 [INFO]: Epoch: 9, Iter: 5300, Loss: 1.355962872505188
+2024-04-06 19:02:01,743 [INFO]: Epoch: 9, Iter: 5400, Loss: 1.4225231409072876
+2024-04-06 19:02:22,596 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 19:02:22,599 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 19:02:23,021 [INFO]: Output: 他把《绿书》称为“新福音》,“新福音”。
+2024-04-06 19:02:33,309 [INFO]: Epoch: 9, Iter: 5500, Loss: 1.3741931915283203
+2024-04-06 19:03:04,422 [INFO]: Epoch: 9, Iter: 5600, Loss: 1.3178757429122925
+2024-04-06 19:03:35,450 [INFO]: Epoch: 9, Iter: 5700, Loss: 1.255907654762268
+2024-04-06 19:04:06,509 [INFO]: Epoch: 9, Iter: 5800, Loss: 1.2764849662780762
+2024-04-06 19:04:37,520 [INFO]: Epoch: 9, Iter: 5900, Loss: 1.3490978479385376
+2024-04-06 19:05:08,523 [INFO]: Epoch: 9, Iter: 6000, Loss: 1.3797065019607544
+2024-04-06 19:05:39,509 [INFO]: Epoch: 9, Iter: 6100, Loss: 1.3799787759780884
+2024-04-06 19:06:10,492 [INFO]: Epoch: 9, Iter: 6200, Loss: 1.4074018001556396
+2024-04-06 19:06:25,362 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 19:06:25,365 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 19:06:25,713 [INFO]: Output: 他打电话给格林书,他的教书“新福音”。
+2024-04-06 19:06:41,793 [INFO]: Epoch: 9, Iter: 6300, Loss: 1.2805248498916626
+2024-04-06 19:07:12,746 [INFO]: Epoch: 9, Iter: 6400, Loss: 1.4053938388824463
+2024-04-06 19:07:43,682 [INFO]: Epoch: 9, Iter: 6500, Loss: 1.30497407913208
+2024-04-06 19:08:14,606 [INFO]: Epoch: 9, Iter: 6600, Loss: 1.2856643199920654
+2024-04-06 19:08:45,501 [INFO]: Epoch: 9, Iter: 6700, Loss: 1.3314648866653442
+2024-04-06 19:09:16,434 [INFO]: Epoch: 9, Iter: 6800, Loss: 1.292803406715393
+2024-04-06 19:09:47,345 [INFO]: Epoch: 9, Iter: 6900, Loss: 1.3193827867507935
+2024-04-06 19:10:18,291 [INFO]: Epoch: 9, Iter: 7000, Loss: 1.371932864189148
+2024-04-06 19:10:27,306 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 19:10:27,309 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 19:10:27,744 [INFO]: Output: 他把《绿色书》叫做他的教书《新福音》。
+2024-04-06 19:10:49,689 [INFO]: Epoch: 9, Iter: 7100, Loss: 1.4107650518417358
+2024-04-06 19:11:20,610 [INFO]: Epoch: 9, Iter: 7200, Loss: 1.3422881364822388
+2024-04-06 19:11:51,563 [INFO]: Epoch: 9, Iter: 7300, Loss: 1.3788013458251953
+2024-04-06 19:12:22,488 [INFO]: Epoch: 9, Iter: 7400, Loss: 1.3837655782699585
+2024-04-06 19:12:53,432 [INFO]: Epoch: 9, Iter: 7500, Loss: 1.222179889678955
+2024-04-06 19:13:24,377 [INFO]: Epoch: 9, Iter: 7600, Loss: 1.4178506135940552
+2024-04-06 19:13:55,320 [INFO]: Epoch: 9, Iter: 7700, Loss: 1.285098671913147
+2024-04-06 19:14:26,238 [INFO]: Epoch: 9, Iter: 7800, Loss: 1.2545703649520874
+2024-04-06 19:14:29,330 [INFO]: Test translate, input: He calls the Green Book, his book of teachings, “the new gospel.
+2024-04-06 19:14:29,333 [INFO]: src.encode: tensor([   2,  430,  763, 1337,   10,  199,    8,   16,  115, 1334,  280, 1345,
+         277,  510,  280,   27,  259,  311,  443, 1345,  448, 1332,    6,  333,
+          57,  146, 1347,   80, 1353,    3], device='cuda:0')
+2024-04-06 19:14:29,703 [INFO]: Output: 他把绿色书叫做“新福音”,“新福音”。
+2024-04-06 19:14:30,496 [INFO]: Test translate, input: I am a student. I love reading books.
+2024-04-06 19:14:30,496 [INFO]: src.encode: tensor([   2,   61,  502,    5,  351,   44, 1353,   61, 1306, 1163,   30,  510,
+         280, 1337, 1353,    3], device='cuda:0')
+2024-04-06 19:14:30,738 [INFO]: Output: 我是个学生,我喜欢读书。
+2024-04-06 19:24:22,998 [INFO]: Start Testing...
+2024-04-06 19:24:27,995 [INFO]: Test translate, input: Miaoxiang son know the devil tricks, white three quick deployment.
+2024-04-06 19:24:27,996 [INFO]: src.encode: tensor([   2,  106,  314, 1334, 1370, 1335,  245,   11,    9,  635,   10,  108,
+        1354,   53,  374,   37,  369, 1345,  112,  359,  852,  327,  520,  108,
+         273,  634,  102, 1353,    3], device='cuda:0')
+2024-04-06 19:24:28,372 [INFO]: Output: 苗 ⁇ 儿子知道魔鬼的魔鬼,白三快部署。
+2024-04-06 19:25:02,126 [INFO]: Test translate, input: My name is HJY, a senior student at Hangzhou Dianzi University.
+2024-04-06 19:25:02,144 [INFO]: src.encode: tensor([   2,  106, 1349,   55,  341,   58,  133, 1512, 1547, 1345,    5,   11,
+          16, 1256,  351,   44,  156,  133,  245, 1406, 1339,   33,  164,  473,
+        1406, 1335,  683,  985,  121, 1353,    3], device='cuda:0')
+2024-04-06 19:25:02,490 [INFO]: Output: 我的名字是汉 ⁇ ,杭州大学的高中生。
+2024-04-06 19:25:42,736 [INFO]: Test translate, input: In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack.
+2024-04-06 19:25:42,748 [INFO]: src.encode: tensor([   2,  187,  250,  529,   39,   10,  465,  643, 1359, 1340,   86,  126,
+          32,  963,  251, 1342,   91,   12,   49,   86,   12, 1345,   10,  864,
+          91,   12,  845,  617, 1337,    5,   46,   89, 1341,  643, 1359, 1340,
+          86,   12, 1345,  283, 1061, 1337, 1168, 1335, 1359,    6,   94,  589,
+         981,  419,   10,  289, 1347,   62,   27,   10,  251, 1342,   91,   12,
+          70,  290, 1353,    3], device='cuda:0')
+2024-04-06 19:25:43,775 [INFO]: Output: 除了每个编码层中的两个子层,其外,决定符号的第三层插入第三层,这就在编码堆栈集的输出中执行多头标记。

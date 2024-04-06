@@ -22,9 +22,9 @@ class MTranslate(nn.Module):
             nn.LogSoftmax(dim=-1)
         )
 
-    def forward(self, src, trg):
-        src_mask = (src == 0).unsqueeze(1).unsqueeze(2)
-        trg_mask = (trg == 0).unsqueeze(1).unsqueeze(2)
+    def forward(self, src, trg, src_mask, trg_mask):
+        # src_mask = (src == 0).unsqueeze(1).unsqueeze(2)
+        # trg_mask = (trg == 0).unsqueeze(1).unsqueeze(2)
         src = self.pe(self.in_embedding(src))
         trg = self.pe(self.out_embedding(trg))
 

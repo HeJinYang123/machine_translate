@@ -5,14 +5,25 @@ import json
 import sentencepiece as sp
 
 
-def build_vocab(json_data_path, save_path, vocab_size=5000):
+def build_vocab(json_data_path, save_path, vocab_size=20000):
     english = []
     chinese = []
+    max_sentence = 1000000
+    cnt=0
     with open(json_data_path, "r") as fo:
         for line in fo:
+            cnt+=1
+            if(cnt>max_sentence):
+                break
             data = json.loads(line)
             english.append(data["english"])
             chinese.append(data["chinese"])
+    with open(os.path.join(save_path, "english.txt"), "w") as fo:
+        for line in english:
+            fo.write(line + "\n")
+    with open(os.path.join(save_path, "chinese.txt"), "w") as fo:
+        for line in chinese:
+            fo.write(line + "\n")
     with open(os.path.join(save_path, "zh&en.txt"), "w") as fo:
         for line in english:
             fo.write(line + "\n")

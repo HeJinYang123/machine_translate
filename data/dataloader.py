@@ -34,7 +34,8 @@ class TranslationDataset(torch.utils.data.Dataset):
 
         self.items = []
         for i in tqdm(range(self.length)):
-            text1 = en[i].replace(' ', '').strip()
+            # text1 = en[i].replace(' ', '').strip()
+            text1 = en[i].strip()
             text2 = zh[i].strip()
 
             input = tokenizer.encode(text1)
