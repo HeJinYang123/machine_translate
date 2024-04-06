@@ -16,4 +16,4 @@ if __name__ == '__main__':
         if example_in.lower() == 'exit':
             print("退出程序。")
             break
-        task.translate(example_in, mode="test")
+        task.translate(example_in, mode="test") 
